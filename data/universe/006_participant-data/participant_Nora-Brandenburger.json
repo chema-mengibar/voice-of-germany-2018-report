@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Yvonne", 
+  "name": "Nora Brandenburger", 
+  "song": "'ONE NIGHT ONLY' VON JENNIFER HUDSON", 
+  "age": 31, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 14, 
+  "song_artist": "JENNIFER HUDSON", 
+  "song_title": "ONE NIGHT ONLY"
+}

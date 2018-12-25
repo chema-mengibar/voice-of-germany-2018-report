@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MARK, MICHI & SMUDO)", 
+  "coach": "Mark", 
+  "name": "Lars Kamphausen", 
+  "song": "'TRAUM' VON CRO", 
+  "age": 19, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Michi & Smudo"
+  ], 
+  "list_pos_participant": 12, 
+  "song_artist": "CRO", 
+  "song_title": "TRAUM"
+}

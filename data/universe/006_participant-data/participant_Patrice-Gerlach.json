@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MARK, MICHI & SMUDO, YVONNE)", 
+  "coach": "Yvonne", 
+  "name": "Patrice Gerlach", 
+  "song": "'LEGO HOUSE' VON ED SHEERAN", 
+  "age": 21, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Michi & Smudo", 
+    "Yvonne"
+  ], 
+  "list_pos_participant": 15, 
+  "song_artist": "ED SHEERAN", 
+  "song_title": "LEGO HOUSE"
+}

@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (YVONNE, MARK)", 
+  "coach": "Mark", 
+  "name": "Felicitas Mayer", 
+  "song": "'MIRRORS' VON JUSTIN TIMBERLAKE", 
+  "age": 20, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 6, 
+  "song_artist": "JUSTIN TIMBERLAKE", 
+  "song_title": "MIRRORS"
+}

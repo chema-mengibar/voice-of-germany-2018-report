@@ -1,0 +1,8 @@
+
+\.vscode/
+
+*.exe
+
+project/
+
+tools/

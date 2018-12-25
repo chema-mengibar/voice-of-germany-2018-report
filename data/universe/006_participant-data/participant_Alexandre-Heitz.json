@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Mark", 
+  "name": "Alexandre Heitz", 
+  "song": "'PAPAOUTAI' VON STORMAE", 
+  "age": 21, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 1, 
+  "song_artist": "STORMAE", 
+  "song_title": "PAPAOUTAI"
+}

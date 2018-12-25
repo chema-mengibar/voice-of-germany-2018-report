@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Yvonne", 
+  "name": "Flavio Baltermia", 
+  "song": "'BREAKFAST IN AMERICA' VON SUPERTRAMP", 
+  "age": 42, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 4, 
+  "song_artist": "SUPERTRAMP", 
+  "song_title": "BREAKFAST IN AMERICA"
+}

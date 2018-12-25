@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MARK, YVONNE)", 
+  "coach": "Mark", 
+  "name": "Kira Mesterheide", 
+  "song": "'THE DRUGS DON'T WORK' VON THE VERVE", 
+  "age": 23, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Yvonne"
+  ], 
+  "list_pos_participant": 11, 
+  "song_artist": "THE VERVE", 
+  "song_title": "THE DRUGS DONT WORK"
+}

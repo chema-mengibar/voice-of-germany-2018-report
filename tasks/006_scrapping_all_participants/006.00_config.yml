@@ -1,0 +1,14 @@
+options:
+  increment-version: false
+params:
+  start_coach: 3
+  start_part: 16
+source:
+  dir: web-teams/
+  file: teams_2018-12-16--23-36.json
+  route: universe
+target:
+  dir: 006_participant-data/
+  file: participant_$PART$.json
+  route: universe
+version: 1.0

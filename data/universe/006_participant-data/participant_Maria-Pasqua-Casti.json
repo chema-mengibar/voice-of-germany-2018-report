@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHAEL PATRICK, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Maria Pasqua Casti", 
+  "song": "'THE MIDDLE' VON ZEDD, MAREN MORRIS, GREY", 
+  "age": 21, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Mark"
+  ], 
+  "list_pos_participant": 10, 
+  "song_artist": "ZEDD, MAREN MORRIS, GREY", 
+  "song_title": "THE MIDDLE"
+}

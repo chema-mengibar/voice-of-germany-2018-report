@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (YVONNE, MARK)", 
+  "coach": "Yvonne", 
+  "name": "Linda Alkhodor", 
+  "song": "'FLAMES' VON DAVID GUETTA & SIA", 
+  "age": 16, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 10, 
+  "song_artist": "DAVID GUETTA & SIA", 
+  "song_title": "FLAMES"
+}

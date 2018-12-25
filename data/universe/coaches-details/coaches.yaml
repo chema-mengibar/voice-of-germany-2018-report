@@ -1,0 +1,81 @@
+coaches:
+  Mark:
+    name: Mark Forster
+    place of birth: Kaiserslautern
+    date of birth: 11. Januar 1984
+    wiki: https://de.wikipedia.org/wiki/Mark_Forster
+    discography:
+      2012:
+        title: Karton
+        chart place:
+          de: 45 (7 Wo.)
+          at: -
+          ch: -
+        Erstveröffentlichung: 1. Juni 2012
+        Verkäufe: + 100.000
+      2014:
+        title: Bauch und Kopf
+        chart place:
+          de: 10 (117 Wo.)
+          at: 35 (14 Wo.)
+          ch: 37 (17 Wo.)
+        Erstveröffentlichung: 16. Mai 2014
+        Verkäufe: + 400.000
+      2016:
+        title: TAPE
+        chart place:
+          de: 2 (... Wo.)
+          at: 2 (... Wo.)
+          ch: 7 (83 Wo.)
+        Erstveröffentlichung: 3. Juni 2016
+        Verkäufe: + 407.500
+      2018:
+        title: LIEBE
+        chart place:
+          de: 3 (... Wo.)
+          at: 5 (... Wo.)
+          ch: 8 (... Wo.)
+        Erstveröffentlichung: 16. November 2018
+        Verkäufe: ...
+  Yvonne:
+    name: Yvonne Catterfeld
+    place of birth: Erfurt
+    date of birth: 2. Dezember 1979
+    wiki: https://de.wikipedia.org/wiki/Yvonne_Catterfeld
+    discography:
+      2017:
+        title: Guten Morgen Freiheit
+        chart place:
+          de: 4 (10 Wo.)
+          at: 4 (11 Wo.)
+          ch: 7 (4 Wo.)
+        Erstveröffentlichung: 10. März 2017
+        Verkäufe: ...
+  Michael-Patrick:
+    name:  Michael Patrick „Paddy“ Kelly
+    place of birth: Dublin
+    date of birth: 5. Dezember 1977
+    wiki: https://de.wikipedia.org/wiki/Michael_Patrick_Kelly
+    discography:
+      2017:
+        title: iD
+        chart place:
+          de: 2 (... Wo.)
+          at: 7 (17 Wo.)
+          ch: 5 (... Wo.)
+        Erstveröffentlichung: 16. Juni 2017
+        Verkäufe: + 100.000
+  Michi-Smudo:
+    name:  Die Fantastischen Vier
+    place of birth: Stuttgart
+    date of birth:  1991
+    wiki: https://de.wikipedia.org/wiki/Die_Fantastischen_Vier
+    discography:
+      2018:
+        title: Captain Fantastic
+        chart place:
+          de: 2 (20 Wo.)
+          at: 3 (13 Wo.)
+          ch: 1 (15 Wo.)
+        Erstveröffentlichung: 27. April 2018
+        Verkäufe: + 100.000

@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHI & SMUDO, MARK)", 
+  "coach": "Michi & Smudo", 
+  "name": "Eros Atomus Isler", 
+  "song": "'BETTE DAVIS EYES' VON KIM CARNES", 
+  "age": 18, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "list_pos_participant": 4, 
+  "song_artist": "KIM CARNES", 
+  "song_title": "BETTE DAVIS EYES"
+}

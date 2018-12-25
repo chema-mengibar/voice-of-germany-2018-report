@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHAEL PATRICK, MARK)", 
+  "coach": "Mark", 
+  "name": "Johannes Holfeld", 
+  "song": "'ICH LIEB DICH \u00dcBERHAUPT NICHT MEHR' VON UDO LINDENBERG", 
+  "age": 37, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Mark"
+  ], 
+  "list_pos_participant": 8, 
+  "song_artist": "UDO LINDENBERG", 
+  "song_title": "ICH LIEB DICH \u00dcBERHAUPT NICHT MEHR"
+}

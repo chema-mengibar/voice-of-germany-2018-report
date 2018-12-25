@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MARK, MICHAEL PATRICK)", 
+  "coach": "Mark", 
+  "name": "Damiano Maiolini", 
+  "song": "'YOU ARE THE REASON' VON CALLUM SCOTT", 
+  "age": 27, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Michael Patrick"
+  ], 
+  "list_pos_participant": 2, 
+  "song_artist": "CALLUM SCOTT", 
+  "song_title": "YOU ARE THE REASON"
+}

@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHAEL PATRICK, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Taylor Shore", 
+  "song": "'INCOMPLETE' VON BACKSTREET BOYS", 
+  "age": 35, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Mark"
+  ], 
+  "list_pos_participant": 18, 
+  "song_artist": "BACKSTREET BOYS", 
+  "song_title": "INCOMPLETE"
+}

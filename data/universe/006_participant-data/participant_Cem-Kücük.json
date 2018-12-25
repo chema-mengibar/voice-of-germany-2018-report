@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Michi & Smudo", 
+  "name": "Cem K\u00fcc\u00fck", 
+  "song": "'FAST CAR' VON TRACY CHAPMAN", 
+  "age": 22, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 1, 
+  "song_artist": "TRACY CHAPMAN", 
+  "song_title": "FAST CAR"
+}

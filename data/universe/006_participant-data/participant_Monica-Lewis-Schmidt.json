@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHAEL PATRICK, MICHI & SMUDO, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Monica Lewis-Schmidt", 
+  "song": "'RESPECT' VON ARETHA FRANKLIN", 
+  "age": 52, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "list_pos_participant": 13, 
+  "song_artist": "ARETHA FRANKLIN", 
+  "song_title": "RESPECT"
+}

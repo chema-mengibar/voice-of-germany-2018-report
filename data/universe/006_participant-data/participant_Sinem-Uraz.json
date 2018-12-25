@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Mark", 
+  "name": "Sinem Uraz", 
+  "song": "'ISYAN' VON HALIL SEZAI", 
+  "age": "18", 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 19, 
+  "song_artist": "HALIL SEZAI", 
+  "song_title": "ISYAN"
+}

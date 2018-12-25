@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MARK, YVONNE)", 
+  "coach": "Yvonne", 
+  "name": "Benjamin Dolic", 
+  "song": "'NO TEARS LEFT TO CRY' VON ARIANA GRANDE", 
+  "age": 21, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Yvonne"
+  ], 
+  "list_pos_participant": 2, 
+  "song_artist": "ARIANA GRANDE", 
+  "song_title": "NO TEARS LEFT TO CRY"
+}

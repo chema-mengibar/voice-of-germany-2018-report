@@ -1,0 +1,15 @@
+options:
+  increment-version: false
+params:
+  current: 212
+  initial: false
+  none: empty
+source:
+  dir: 005_deezer/
+  file: deezer_playlist_2018-12-23--12-45.json
+  route: universe
+target:
+  dir: 005_songs/
+  file: songs_$VERSION$.csv
+  route: stage
+version: 5.1

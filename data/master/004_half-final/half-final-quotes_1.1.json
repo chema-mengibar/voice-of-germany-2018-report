@@ -1,0 +1,86 @@
+[
+  {
+    "coach": "Michael Patrick", 
+    "participants": [
+      {
+        "quote": 19.8, 
+        "name": "Matthias Nebel"
+      }, 
+      {
+        "quote": 47.0, 
+        "name": "Samuel R\u00f6sch"
+      }, 
+      {
+        "quote": 33.2, 
+        "name": "Bernarda Brunovic"
+      }
+    ], 
+    "winner": {
+      "quote": 47.0, 
+      "name": "Samuel R\u00f6sch"
+    }
+  }, 
+  {
+    "coach": "Mark", 
+    "participants": [
+      {
+        "quote": 16.7, 
+        "name": "Diana Babalola"
+      }, 
+      {
+        "quote": 27.2, 
+        "name": "Rahel Maas"
+      }, 
+      {
+        "quote": 56.1, 
+        "name": "Jessica Schaffler"
+      }
+    ], 
+    "winner": {
+      "quote": 56.1, 
+      "name": "Jessica Schaffler"
+    }
+  }, 
+  {
+    "coach": "Michi & Smudo", 
+    "participants": [
+      {
+        "quote": 37.6, 
+        "name": "Eros Atomus Isler"
+      }, 
+      {
+        "quote": 31.0, 
+        "name": "Clifford Dwenger"
+      }, 
+      {
+        "quote": 31.4, 
+        "name": "Coby Grant"
+      }
+    ], 
+    "winner": {
+      "quote": 37.6, 
+      "name": "Eros Atomus Isler"
+    }
+  }, 
+  {
+    "coach": "Yvonne", 
+    "participants": [
+      {
+        "quote": 9.6, 
+        "name": "James Smith Jr."
+      }, 
+      {
+        "quote": 31.6, 
+        "name": "Linda Alkhodor"
+      }, 
+      {
+        "quote": 58.5, 
+        "name": "Benjamin Dolic"
+      }
+    ], 
+    "winner": {
+      "quote": 58.5, 
+      "name": "Benjamin Dolic"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (YVONNE, MICHAEL PATRICK, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Amanda Lena Jakucs", 
+  "song": "'STARGAZING' VON KYGO", 
+  "age": 23, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Yvonne", 
+    "Michael Patrick", 
+    "Mark"
+  ], 
+  "list_pos_participant": 0, 
+  "song_artist": "KYGO", 
+  "song_title": "STARGAZING"
+}

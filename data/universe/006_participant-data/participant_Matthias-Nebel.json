@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Matthias Nebel", 
+  "song": "'BED OF ROSES' VON BON JOVI", 
+  "age": 27, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 12, 
+  "song_artist": "BON JOVI", 
+  "song_title": "BED OF ROSES"
+}

@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Bernarda Brunovic", 
+  "song": "'I HEARD IT THROUGH THE GRAPEVINE' VON MARVIN GAYE", 
+  "age": 25, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 1, 
+  "song_artist": "MARVIN GAYE", 
+  "song_title": "I HEARD IT THROUGH THE GRAPEVINE"
+}

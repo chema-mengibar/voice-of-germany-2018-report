@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MARK, YVONNE, MICHAEL PATRICK, MICHI & SMUDO)", 
+  "coach": "Mark", 
+  "name": "Alessandro R\u00fctten", 
+  "song": "'IN MY BLOOD' VON SHAWN MENDES", 
+  "age": 22, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Yvonne", 
+    "Michael Patrick", 
+    "Michi & Smudo"
+  ], 
+  "list_pos_participant": 0, 
+  "song_artist": "SHAWN MENDES", 
+  "song_title": "IN MY BLOOD"
+}

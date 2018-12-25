@@ -1,0 +1,10 @@
+options:
+  increment-version: false
+version: 1.0
+params:
+  url: https://special.the-voice-of-germany.de/talent-wall/?site=the-voice-of-germany.de
+target:
+  dir: 001_web-teams/
+  file: teams_$TIME$.json
+  file_links: links.json
+  route: universe

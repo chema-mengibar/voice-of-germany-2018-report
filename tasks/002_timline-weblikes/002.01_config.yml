@@ -1,0 +1,13 @@
+options:
+  increment-version: false
+params:
+  none: empty
+source:
+  dir: 002_timeline-weblikes/
+  file: timeline-weblikes_1.3.json
+  route: master
+target:
+  dir: 002_timeline-weblikes/
+  file: timeline-weblikes_$VERSION$.png
+  route: master
+version: 1.3

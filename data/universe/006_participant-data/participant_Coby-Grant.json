@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Michi & Smudo", 
+  "name": "Coby Grant", 
+  "song": "'LEAVING ON A JETPLANE' VON JOHN DENVER", 
+  "age": 32, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 3, 
+  "song_artist": "JOHN DENVER", 
+  "song_title": "LEAVING ON A JETPLANE"
+}

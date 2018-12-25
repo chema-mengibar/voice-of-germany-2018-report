@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MARK, MICHI & SMUDO, YVONNE)", 
+  "coach": "Yvonne", 
+  "name": "Florian Alexander Kurz", 
+  "song": "'BIS MEINE WELT DIE AUGEN SCHLIESST' VON ALEXANDER KNAPPE", 
+  "age": 17, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Michi & Smudo", 
+    "Yvonne"
+  ], 
+  "list_pos_participant": 5, 
+  "song_artist": "ALEXANDER KNAPPE", 
+  "song_title": "BIS MEINE WELT DIE AUGEN SCHLIESST"
+}

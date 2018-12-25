@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHAEL PATRICK, YVONNE, MARK)", 
+  "coach": "Yvonne", 
+  "name": "Andreas Hauser", 
+  "song": "'WAY DOWN WE GO' VON KALEO", 
+  "age": 25, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 1, 
+  "song_artist": "KALEO", 
+  "song_title": "WAY DOWN WE GO"
+}

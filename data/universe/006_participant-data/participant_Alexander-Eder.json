@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MARK, MICHI & SMUDO)", 
+  "coach": "Michi & Smudo", 
+  "name": "Alexander Eder", 
+  "song": "'YOUR MAN' VON JOSH TURNER", 
+  "age": 19, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Michi & Smudo"
+  ], 
+  "list_pos_participant": 0, 
+  "song_artist": "JOSH TURNER", 
+  "song_title": "YOUR MAN"
+}

@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MARK, MICHI & SMUDO)", 
+  "coach": "Mark", 
+  "name": "Jessica Schaffler", 
+  "song": "'ORDINARY WORLD' VON DURAN DURAN", 
+  "age": 17, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Michi & Smudo"
+  ], 
+  "list_pos_participant": 7, 
+  "song_artist": "DURAN DURAN", 
+  "song_title": "ORDINARY WORLD"
+}

@@ -1,0 +1,12 @@
+options:
+  increment-version: false
+params:
+  url: https://www.deezer.com/es/playlist/4933739364
+source:
+  dir: ~/
+  route: null
+target:
+  dir: deezer/
+  file: deezer_playlist_$TIME$.json
+  route: universe
+version: 5.0

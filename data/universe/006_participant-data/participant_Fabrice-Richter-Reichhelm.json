@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHI & SMUDO, MARK)", 
+  "coach": "Michi & Smudo", 
+  "name": "Fabrice Richter-Reichhelm", 
+  "song": "'WELT DER WUNDER' VON MARTERIA", 
+  "age": 26, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "list_pos_participant": 6, 
+  "song_artist": "MARTERIA", 
+  "song_title": "WELT DER WUNDER"
+}

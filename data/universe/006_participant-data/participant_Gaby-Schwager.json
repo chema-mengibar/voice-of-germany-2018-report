@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHAEL PATRICK, MICHI & SMUDO, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Gaby Schwager", 
+  "song": "'SCARBOROUGH FAIR' VON SIMON & GARFUNKEL", 
+  "age": 27, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "list_pos_participant": 4, 
+  "song_artist": "SIMON & GARFUNKEL", 
+  "song_title": "SCARBOROUGH FAIR"
+}

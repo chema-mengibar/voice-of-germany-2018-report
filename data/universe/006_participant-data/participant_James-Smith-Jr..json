@@ -1,0 +1,16 @@
+{
+  "buzzer": "3 (MICHAEL PATRICK, YVONNE, MARK)", 
+  "coach": "Yvonne", 
+  "name": "James Smith Jr.", 
+  "song": "'FINESSE' VON BRUNO MARS & CARDI B", 
+  "age": 16, 
+  "buzzer_count": 3, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 8, 
+  "song_artist": "BRUNO MARS & CARDI B", 
+  "song_title": "FINESSE"
+}

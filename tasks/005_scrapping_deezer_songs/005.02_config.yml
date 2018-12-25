@@ -1,0 +1,13 @@
+options:
+  increment-version: false
+params:
+  none: empty
+source:
+  dir: 005_songs/
+  file: songs_5.1.csv
+  route: stage
+target:
+  dir: 005_songs/
+  file: songs_$VERSION$.csv
+  route: master
+version: 5.2

@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHAEL PATRICK, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Ludmila Larusso", 
+  "song": "'NESSUN DORMA' VON GIACOMO PUCCINI", 
+  "age": 58, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Mark"
+  ], 
+  "list_pos_participant": 9, 
+  "song_artist": "GIACOMO PUCCINI", 
+  "song_title": "NESSUN DORMA"
+}

@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHAEL PATRICK, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Samuele Di Dio", 
+  "song": "'CON TE' VON SERGIO SYLVESTRE", 
+  "age": 24, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Mark"
+  ], 
+  "list_pos_participant": 16, 
+  "song_artist": "SERGIO SYLVESTRE", 
+  "song_title": "CON TE"
+}

@@ -1,0 +1,13 @@
+options:
+  increment-version: true
+params:
+  half-final_date: 09.12.2018
+source:
+  web-teams:
+    dir: 001_web-teams/
+    route: universe
+target:
+  dir: 004_half-final/
+  file: half-final_$VERSION$.json
+  route: master
+version: 1.0

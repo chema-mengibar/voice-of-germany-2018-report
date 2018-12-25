@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Mark", 
+  "name": "Dominik Hartz", 
+  "song": "'TAG AM MEER' DIE FANTASTISCHEN VIER", 
+  "age": 20, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 5, 
+  "song_artist": "DIE FANTASTISCHEN VIER", 
+  "song_title": "TAG AM MEER"
+}

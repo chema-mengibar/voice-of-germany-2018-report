@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHI & SMUDO, MARK)", 
+  "coach": "Michi & Smudo", 
+  "name": "Sebastian Stipp", 
+  "song": "'DU F\u00c4NGST MICH EIN' VON SASHA", 
+  "age": 33, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "list_pos_participant": 16, 
+  "song_artist": "SASHA", 
+  "song_title": "DU F\u00c4NGST MICH EIN"
+}

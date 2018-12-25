@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Michael Patrick", 
+  "name": "Guido Goh", 
+  "song": "'CRYING IN THE RAIN' VON A-HA", 
+  "age": 48, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 5, 
+  "song_artist": "A-HA", 
+  "song_title": "CRYING IN THE RAIN"
+}

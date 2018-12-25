@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MARK, MICHI & SMUDO)", 
+  "coach": "Mark", 
+  "name": "Diana Babalola", 
+  "song": "'TAKE IT ALL' VON ADELE", 
+  "age": 26, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Mark", 
+    "Michi & Smudo"
+  ], 
+  "list_pos_participant": 4, 
+  "song_artist": "ADELE", 
+  "song_title": "TAKE IT ALL"
+}

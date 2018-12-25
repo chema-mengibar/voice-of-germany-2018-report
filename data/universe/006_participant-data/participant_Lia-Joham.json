@@ -1,0 +1,15 @@
+{
+  "buzzer": "2 (MICHI & SMUDO, MARK)", 
+  "coach": "Michi & Smudo", 
+  "name": "Lia Joham", 
+  "song": "'BRIDGE OVER TROUBLED WATER' VON SIMON AND GARFUNKEL", 
+  "age": 21, 
+  "buzzer_count": 2, 
+  "buzzer_coaches": [
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "list_pos_participant": 13, 
+  "song_artist": "SIMON AND GARFUNKEL", 
+  "song_title": "BRIDGE OVER TROUBLED WATER"
+}

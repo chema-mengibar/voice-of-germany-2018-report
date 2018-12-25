@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Michi & Smudo", 
+  "name": "Sascha Coles", 
+  "song": "'TAKE A LOOK AROUND' VON LIMP BIZKIT", 
+  "age": 32, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 15, 
+  "song_artist": "LIMP BIZKIT", 
+  "song_title": "TAKE A LOOK AROUND"
+}

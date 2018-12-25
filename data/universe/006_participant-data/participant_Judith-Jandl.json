@@ -1,0 +1,17 @@
+{
+  "buzzer": "4 (MICHAEL PATRICK, MICHI & SMUDO, YVONNE, MARK)", 
+  "coach": "Mark", 
+  "name": "Judith Jandl", 
+  "song": "'LICENCE TO KILL' GLADYS KNIGHT", 
+  "age": 27, 
+  "buzzer_count": 4, 
+  "buzzer_coaches": [
+    "Michael Patrick", 
+    "Michi & Smudo", 
+    "Yvonne", 
+    "Mark"
+  ], 
+  "list_pos_participant": 10, 
+  "song_artist": "GLADYS KNIGHT", 
+  "song_title": "LICENCE TO KILL"
+}

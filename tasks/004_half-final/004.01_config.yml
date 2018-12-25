@@ -1,0 +1,21 @@
+options:
+  increment-version: true
+params:
+  half-final_date: 09.12.2018
+source:
+  half-final:
+    dir: quotes/
+    file: quotes_half-final.csv
+    route: universe
+  web-teams:
+    dir: 001_web-teams/
+    route: universe
+  participants:
+    dir: participants/
+    file: participants_halbfinale.yaml
+    route: universe
+target:
+  dir: 004_half-final/
+  file: half-final-quotes_$VERSION$.json
+  route: master
+version: 1.0
