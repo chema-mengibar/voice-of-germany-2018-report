@@ -1,0 +1,115 @@
+{
+    "columns": [
+        "deezer-playlist-id",
+        "song",
+        "artist",
+        "year",
+        "genre",
+        "deezer-quote",
+        "lang"
+    ],
+    "index": [
+        17,
+        10,
+        4,
+        16,
+        1,
+        11,
+        2,
+        14,
+        29,
+        3
+    ],
+    "data": [
+        [
+            102,
+            "Freiheit",
+            "Westernhagen (WEA)",
+            null,
+            null,
+            8.44,
+            "de"
+        ],
+        [
+            55,
+            "Zu dir",
+            "LEA",
+            "2018",
+            null,
+            8.15,
+            "de"
+        ],
+        [
+            12,
+            "Zusammen feat. Clueso",
+            "Die Fantastischen Vier, Clueso",
+            "2018",
+            "Pop",
+            7.56,
+            "de"
+        ],
+        [
+            5,
+            "Einmal",
+            "Mark Forster",
+            "2018",
+            "Pop",
+            6.86,
+            "de"
+        ],
+        [
+            1,
+            "Mein Lebensstrahlen",
+            "Herbert Grönemeyer",
+            "2018",
+            "Pop",
+            6.3,
+            "de"
+        ],
+        [
+            67,
+            "Keinen Zentimeter",
+            "Clueso",
+            "2008",
+            null,
+            6.22,
+            "de"
+        ],
+        [
+            8,
+            "Auf uns",
+            "Andreas Bourani",
+            "2014",
+            null,
+            6.07,
+            "de"
+        ],
+        [
+            81,
+            "Schwarz zu blau",
+            "Peter Fox",
+            "2008",
+            "Reggae, Pop",
+            5.95,
+            "de"
+        ],
+        [
+            205,
+            "Ohne Dich",
+            "Münchener Freiheit",
+            "1989",
+            null,
+            5.75,
+            "de"
+        ],
+        [
+            11,
+            "In diesem Moment",
+            "Roger Cicero",
+            null,
+            "Jazz",
+            5.65,
+            "de"
+        ]
+    ]
+}

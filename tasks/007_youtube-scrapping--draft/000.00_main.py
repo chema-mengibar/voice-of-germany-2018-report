@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import os
 import sys
 
@@ -10,9 +9,6 @@ import json, csv, time, string, itertools, copy, yaml
 import numpy as np
 import pandas as pd
 import datetime as dt
-
-import math
-import re
 
 CONFIG_FILE_NAME = '000.00_config'
 config = yaml.load( stream = file( DIR_TASK + '\\' + CONFIG_FILE_NAME + '.yml', 'r'))
@@ -37,41 +33,32 @@ for arg in args:
   params[ argKey ]= argValue
 
 
-#DEF:
-def getSourceFile( _sourceKey, _fileIdx ):
-  sourceName = config['source'][ _sourceKey ]
-  sourcePathFile = router.getRoute( sourceName['route'] ) + sourceName['dir'] + sourceName['files'][ _fileIdx ]
-  return open( sourcePathFile , 'r')
-
-
 #STEP: modify version?
+
 configVersion = config['version']
 config['version'] =  round( float(configVersion) + .1, 1 ) if config['options']['increment-version'] == True else configVersion
 
 
 #STEP: load file json
-rawContent = getSourceFile( 'source_langs', 0 )  
-fileJsonContent = json.load( rawContent )
+sourcePathFile = router.getRoute( config['source']['route'] ) + config['source']['dir'] + config['source']['file']
+rawObj = open( sourcePathFile , 'r')
+fileJsonContent = json.load( rawObj )
 
-#COM: read in your format here
-#HELP: JSON   -> fileJsonContent = json.load( rawFile )
-#HELP: DF-CSV -> df_Data = pd.read_csv( filepath_or_buffer=sourcePathFile, sep=";", quoting=3, decimal="," )
-#HELP: TXT    -> listLines = fileLinesRaw = [line.rstrip('\n') for line in rawFile]
 
 
 #STEP: output-file
-outputPath =  router.getRoute( config['target']['route'] ) + config['target']['dir'] 
-outputFilePath = outputPath + config['target']['file'].replace("$VERSION$", str( config['version'] ) )
+
+outputPath =  router.getRoute( config['target']['route'] ) \
++ config['target']['dir'] \
+
+outputFilePath = outputPath \
++ config['target']['file'].replace("$VERSION$", str( config['version'] ) )
 
 #com: create output folder
 if not os.path.exists( outputPath ):
   os.makedirs( outputPath )
 
-#HELP: save example 
-#com: save taks-data file
-outputCollection = {}
-with open( outputFilePath , 'w') as outfile:
-  json.dump( outputCollection , outfile , indent=2, ensure_ascii=False)
+
 
 
 #STEP: update config file

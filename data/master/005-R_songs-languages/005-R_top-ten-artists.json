@@ -1,0 +1,115 @@
+{
+    "columns": [
+        "deezer-playlist-id",
+        "song",
+        "artist",
+        "year",
+        "genre",
+        "deezer-quote",
+        "lang"
+    ],
+    "index": [
+        163,
+        114,
+        162,
+        9,
+        24,
+        73,
+        66,
+        48,
+        55,
+        50
+    ],
+    "data": [
+        [
+            30,
+            "Let You Love Me",
+            "RITA ORA",
+            "2018",
+            "Pop",
+            9.85,
+            "en"
+        ],
+        [
+            6,
+            "Ruin My Life",
+            "Zara Larsson",
+            "2018",
+            "Pop",
+            9.7,
+            "en"
+        ],
+        [
+            163,
+            "no tears left to cry",
+            "Ariana Grande",
+            "2018",
+            "Pop",
+            9.68,
+            "en"
+        ],
+        [
+            47,
+            "Shotgun",
+            "George Ezra",
+            "2018",
+            "Singer-Songwriter",
+            9.66,
+            "en"
+        ],
+        [
+            137,
+            "Chandelier",
+            "Sia",
+            "2014",
+            "Pop",
+            9.65,
+            "en"
+        ],
+        [
+            74,
+            "Something Just Like This",
+            "The Chainsmokers, Coldplay",
+            "2017",
+            "Dance/Electronic",
+            9.65,
+            "en"
+        ],
+        [
+            212,
+            "In My Blood",
+            "Shawn Mendes",
+            "2018",
+            "Pop",
+            9.65,
+            "en"
+        ],
+        [
+            49,
+            "Happy Now",
+            "ZEDD, Elley Duhe",
+            null,
+            null,
+            9.65,
+            "en"
+        ],
+        [
+            56,
+            "Don't Leave Me Alone",
+            "David Guetta, Anne-Marie",
+            null,
+            null,
+            9.54,
+            "en"
+        ],
+        [
+            51,
+            "Despacito",
+            "Luis Fonsi, Daddy Yankee",
+            "2017",
+            "Reggaeton, Latin Pop",
+            9.52,
+            "es"
+        ]
+    ]
+}

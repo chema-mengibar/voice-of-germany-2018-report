@@ -1,0 +1,59 @@
+options:
+  increment-version: false
+params:
+  none: empty
+source:
+  source_battles:
+    dir: songs/
+    files:
+    - coach.mark__show.battle__songs-raw.txt
+    - coach.yvone__show.battle__songs-raw.txt
+    - coach.michi-smudo__show.battle__songs-raw.txt
+    - coach.michael-patrick__show.battle__songs-raw.txt
+    route: universe
+  source_blinds:
+    dir: blinds/
+    files:
+    - blinds.txt
+    route: universe
+  source_buzzers:
+    dir: 006-R_all-participants/
+    files:
+    - 006-R_all-participants_1.0.json
+    route: stage
+  source_deezer:
+    dir: 005_songs/
+    files:
+    - songs_5.02_manual-modified.csv
+    route: master
+  source_final:
+    dir: songs/
+    files:
+    - finale.txt
+    route: universe
+  source_half-finals:
+    dir: songs/
+    files:
+    - coach.michael-patrick__show.halbfinale__raw.txt
+    - coach.michi-smudo__show.halbfinale__raw.txt
+    - coach.yvone__show.halbfinale__raw.txt
+    - coach.mark__show.halbfinale__raw.txt
+    route: universe
+  source_sing-offs:
+    dir: songs/
+    files:
+    - coach.mark__show.sing-offs__songs-raw.txt
+    - coach.michael-patrick__show.sing-offs__songs-raw.txt
+    - coach.michi-smudo__show.sing-offs__songs-raw.txt
+    - coach.yvone__show.sing-offs__songs-raw.txt
+    route: universe
+  source_team:
+    dir: 001_web-teams/
+    files:
+    - teams_2018-11-20--00-37.json
+    route: universe
+target:
+  dir: 011_songs-lang/
+  file: 011_songs-lang_$VERSION$.json
+  route: master
+version: 1.0

@@ -1,0 +1,38 @@
+[
+  {
+    "is_finalist": true, 
+    "song": "Love Someone", 
+    "candidate_name": "Samuel Rösch", 
+    "relation_final": 32, 
+    "deezer_quote": 8.71, 
+    "quote_final": 54.89, 
+    "is_finalist_winner": true
+  }, 
+  {
+    "is_finalist": true, 
+    "song": "Einmal", 
+    "candidate_name": "Jessica Schaffler", 
+    "relation_final": 53, 
+    "deezer_quote": 6.86, 
+    "quote_final": 14.99, 
+    "is_finalist_winner": false
+  }, 
+  {
+    "is_finalist": true, 
+    "song": "She's Out of My Life", 
+    "candidate_name": "Benjamin Dolic", 
+    "relation_final": 38, 
+    "deezer_quote": 5.52, 
+    "quote_final": 16.6, 
+    "is_finalist_winner": false
+  }, 
+  {
+    "is_finalist": true, 
+    "song": "Thursday", 
+    "candidate_name": "Eros Atomus Isler", 
+    "relation_final": 74, 
+    "deezer_quote": 8.8, 
+    "quote_final": 13.5, 
+    "is_finalist_winner": false
+  }
+]

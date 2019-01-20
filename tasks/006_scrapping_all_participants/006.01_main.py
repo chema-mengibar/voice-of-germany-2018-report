@@ -1,6 +1,9 @@
 import os
 import sys
 
+from os import listdir
+from os.path import isfile, join
+
 DIR_TASK = os.path.basename(os.getcwd())
 DIR_LIB = os.path.abspath(os.path.join(os.path.dirname(__file__),"../"))
 DIR_TASK = os.path.dirname(os.path.abspath(__file__))
@@ -9,10 +12,8 @@ import json, csv, time, string, itertools, copy, yaml
 import numpy as np
 import pandas as pd
 import datetime as dt
-from os import listdir
-from os.path import isfile, join
 
-CONFIG_FILE_NAME = '002.00_config'
+CONFIG_FILE_NAME = '006.01_config'
 config = yaml.load( stream = file( DIR_TASK + '\\' + CONFIG_FILE_NAME + '.yml', 'r'))
 #yaml.dump( config, file( DIR_TASK + '\\config.yml', 'w') )
 
@@ -44,45 +45,13 @@ fileIdx = 0
 rawObj = open( sourcePath + sourceFilesNames[ fileIdx ] , 'r')
 fileJsonContent = json.load( rawObj )
 
-participantsRegistry = {}
-
-coachNames = ['Michael Patrick', 'Mark', 'Michi & Smudo', 'Yvonne' ]
-
-for coachName in coachNames:
-    coachListParticipants = fileJsonContent[ coachName ]
-    for coachParticipants in coachListParticipants:
-        participantsRegistry[ coachParticipants["name"] ] = {}
 
 
-# STEP: charge clicks,date,in state for each day captured for each participant
-#COM: put content in list "participantsRegistry"
-#COM: loop all the files
-for fileName in sourceFilesNames:
-    #print( fileName )
-    try:
-        rawObj = open( sourcePath + fileName, 'r')
-        fileJsonContent = json.load( rawObj )
-        #COM: empty file?
-        if len( fileJsonContent ) > 0:
-            #COM: fileName = # teams_2018-11-20--00-37.json
-            fileDate = fileName.split("_")[1].split("--")[0]
-            fileTime = fileName.split("_")[1].split("--")[1].replace(".json","").replace("-",":")
-            for coachName in coachNames:
-                coachListParticipants = fileJsonContent[ coachName ]
-                for coachParticipant in coachListParticipants:
-                    if fileDate not in participantsRegistry[ coachParticipant["name"] ]:
-                        participantsRegistry[ coachParticipant["name"] ][ fileDate  ] = []
-                    item = {
-                        "time": fileTime,
-                        "likes": coachParticipant["likes"],
-                        "in": coachParticipant["in"],
-                        "coach": coachName,
-                        "date": fileDate
-                    }
-                    participantsRegistry[ coachParticipant["name"] ][ fileDate  ].append( item )
+sys.exit(0)
 
-    except ValueError:
-        print 'error open' +  fileName
+
+
+
 
 
 

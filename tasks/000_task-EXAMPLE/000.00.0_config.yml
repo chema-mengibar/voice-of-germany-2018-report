@@ -4,10 +4,12 @@ version: 1.0
 params:
   none: empty
 source:
-  dir: ~/
-  route: ~
+  source_name:
+    dir: your_source_folder/
+    files: 
+    - your-file.json
+    route: master
 target:
-  dir: web-teams/
-  file: teams_$TIME$.json
-  file_links: links.json
+  dir: your_target_folder/
+  file: your-file_$TIME$.json
   route: universe

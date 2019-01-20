@@ -1,0 +1,25 @@
+options:
+  increment-version: false
+version: 1.0
+params:
+  none: empty
+source:  
+  source_a:
+    dir: songs/
+    files:
+      - coach.michi-smudo__show.halbfinale__raw.txt
+      - coach.mark__show.halbfinale__raw.txt
+      - coach.yvone__show.halbfinale__raw.txt
+      - coach.michael-patrick__show.halbfinale__raw.txt
+      - coach.yvone__show.halbfinale__raw.txt
+    route: universe
+  source_b:
+    dir: 005_songs/
+    files:
+      - songs_5.02_manual-modified.csv
+    route: master
+target:
+  dir: web-teams/
+  file: teams_$TIME$.json
+  file_links: links.json
+  route: universe

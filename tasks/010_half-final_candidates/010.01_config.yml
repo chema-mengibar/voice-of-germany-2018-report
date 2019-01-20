@@ -1,0 +1,40 @@
+options:
+  increment-version: false
+params:
+  none: empty
+source:
+  source_blinds:
+    dir: blinds/
+    files:
+    - blinds.txt
+    route: universe
+  source_buzzers:
+    dir: 006-R_all-participants/
+    files:
+    - 006-R_all-participants_1.0.json
+    route: stage
+  source_deezer:
+    dir: 005_songs/
+    files:
+    - songs_5.02_manual-modified.csv
+    route: master
+  source_finals:
+    dir: songs/
+    files:
+    - finale.txt
+    route: universe
+  source_quotes:
+    dir: quotes/
+    files:
+    - quotes_final.csv
+    route: universe
+  source_team:
+    dir: 001_web-teams/
+    files:
+    - teams_2018-11-20--00-37.json
+    route: universe
+target:
+  dir: 010_half-final-extended/
+  file: 010_final_$VERSION$.json
+  route: master
+version: 1.0

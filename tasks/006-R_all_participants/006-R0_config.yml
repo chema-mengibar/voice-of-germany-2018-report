@@ -1,0 +1,16 @@
+options:
+  increment-version: false
+params:
+  none: empty
+secret:
+  dir: google/
+  file: tvog18-5cae2d62a8f8.json
+  route: secret
+source:
+  dir: 006_participant-data/
+  route: universe
+target:
+  dir: 006-R_all-participants/
+  file: 006-R_all-participants_$VERSION$.json
+  route: stage
+version: 1.0

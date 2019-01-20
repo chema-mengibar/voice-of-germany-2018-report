@@ -17,6 +17,7 @@ class Router(object):
         self.universe =  self.root + 'data\\universe\\'
         self.stage =  self.root + 'data\\stage\\'
         self.master =  self.root + 'data\\master\\'
+        self.secret =  self.root + 'data\\secret\\'
 
 
     def getRoute( self, block ):
@@ -26,5 +27,7 @@ class Router(object):
             return self.stage
         elif  block == 'master':
             return self.master
+        elif  block == 'secret':
+            return self.secret
         else:
             raise Exception("Router: Not a valid block")

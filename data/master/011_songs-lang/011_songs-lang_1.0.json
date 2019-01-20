@@ -1,0 +1,3227 @@
+{
+  "num_candidates": 76, 
+  "languages": [
+    "en", 
+    "de", 
+    "it", 
+    "es"
+  ], 
+  "show_types": [
+    "blinds", 
+    "sing-offs", 
+    "battles", 
+    "half-final", 
+    "final"
+  ], 
+  "years": {
+    "max": "2019", 
+    "min": "1963"
+  }, 
+  "performances": [
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "In My Blood", 
+        "artist": "Shawn Mendes", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 9.65
+      }, 
+      "candidate": "Alessandro Rütten", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Shake Away", 
+        "artist": "Michael Patrick Kelly", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 5.09
+      }, 
+      "candidate": "Sümeyra Stahl", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Bed Of Roses", 
+        "artist": "Bon Jovi", 
+        "genre": "Alternative/Indie", 
+        "year": 1992, 
+        "deezer_quote": 4.19
+      }, 
+      "candidate": "Matthias Nebel", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "For You", 
+        "artist": "Liam Payne, RITA ORA", 
+        "genre": "", 
+        "year": 2018, 
+        "deezer_quote": 6.72
+      }, 
+      "candidate": "Samantha Krug", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "One Night Only", 
+        "artist": "Performed by Jennifer Hudson,, Deena Jones, The Dreams, Dreamgirls (Motion Picture Soundtrack)", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 4.61
+      }, 
+      "candidate": "Nora Brandenburger", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Your Man", 
+        "artist": "Josh Turner", 
+        "genre": "", 
+        "year": 2006, 
+        "deezer_quote": 4.37
+      }, 
+      "candidate": "Alexander Eder", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Ich lieb' dich überhaupt nicht mehr", 
+        "artist": "Udo Lindenberg & Das Panikorchester", 
+        "genre": "Rock", 
+        "year": 2011, 
+        "deezer_quote": 2.94
+      }, 
+      "candidate": "Eva Kaufmann", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Scarborough Fair", 
+        "artist": "Celtic Woman", 
+        "genre": "Keltische Musik", 
+        "year": 2007, 
+        "deezer_quote": 4.43
+      }, 
+      "candidate": "Gaby Schwager", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Leaving on a Jet Plane", 
+        "artist": "John Denver", 
+        "genre": "Folk-Rock", 
+        "year": 1969, 
+        "deezer_quote": 5.4
+      }, 
+      "candidate": "Coby Grant", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Respect", 
+        "artist": "Aretha Franklin", 
+        "genre": "", 
+        "year": 2011, 
+        "deezer_quote": 8.02
+      }, 
+      "candidate": "Monica Lewis-Schmidt", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "A Song For You", 
+        "artist": "Donny Hathaway", 
+        "genre": "Klassischer Soul", 
+        "year": 1971, 
+        "deezer_quote": 5.41
+      }, 
+      "candidate": "Giuliano De Stefano", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Strangers", 
+        "artist": "Sigrid", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Lisa Lukoschek", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Never Gonna Give You Up", 
+        "artist": "Rick Astley", 
+        "genre": "", 
+        "year": 1987, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Jeanie Celina Schultheis", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Sex on Fire", 
+        "artist": "Kings of Leon", 
+        "genre": "Rock", 
+        "year": 2008, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Julian Coles", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Take A Look Around", 
+        "artist": "Limp Bizkit", 
+        "genre": "Pop", 
+        "year": 2000, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Sascha Coles", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "it", 
+        "title": "Nessun Dorma", 
+        "artist": "Katherine Jenkins, The Prague Symphonia, Anthony Ingliss, Rudolfus Choir", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Ludmila Larusso", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Lonely Together", 
+        "artist": "Avicii, RITA ORA", 
+        "genre": "Dance/Electronic", 
+        "year": 0, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Michelle Patz", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "es", 
+        "title": "Échame La Culpa", 
+        "artist": "Luis Fonsi, Demi Lovato", 
+        "genre": "Reggaeton, Pop", 
+        "year": 2018, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Misses Melaza", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "I Heard It Through The Grapevine", 
+        "artist": "Marvin Gaye", 
+        "genre": "", 
+        "year": 1968, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Bernarda Brunovic", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Signal", 
+        "artist": "Joris", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Samuel Rösch", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Missing You", 
+        "artist": "John Waite", 
+        "genre": "Pop", 
+        "year": 1984, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "David Henn", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Licence To Kill", 
+        "artist": "Gladys Knight", 
+        "genre": "", 
+        "year": 1989, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Judith Jandl", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Finesse", 
+        "artist": "Bruno Mars, Cardi B", 
+        "genre": "Funk, New Jack Swing, Zeitgenössischer R&B", 
+        "year": 2016, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "James Smith jr.", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "You Let Me Walk Alone", 
+        "artist": "Michael Schulte", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 6.78
+      }, 
+      "candidate": "Fabian Riaz", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "You Can Do It", 
+        "artist": "Ice Cube, Mack 10, Ms. Toi", 
+        "genre": "R&B/Soul", 
+        "year": 1999, 
+        "deezer_quote": 5.93
+      }, 
+      "candidate": "Clifford Dwenger", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "For You", 
+        "artist": "Liam Payne, RITA ORA", 
+        "genre": "", 
+        "year": 2018, 
+        "deezer_quote": 6.72
+      }, 
+      "candidate": "Melissa Muamba", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Real to Me", 
+        "artist": "Brian McFadden", 
+        "genre": "Pop", 
+        "year": 2004, 
+        "deezer_quote": 3.45
+      }, 
+      "candidate": "Mario Novack", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Bette Davis Eyes", 
+        "artist": "Kim Carnes", 
+        "genre": "", 
+        "year": 1981, 
+        "deezer_quote": 7.93
+      }, 
+      "candidate": "Eros Isler", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "IDGAF", 
+        "artist": "Dua Lipa", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 2.65
+      }, 
+      "candidate": "Kendra Lynne Pilling", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Papaoutai", 
+        "artist": "Stromae", 
+        "genre": "Synthiepop, Hip-Hop/Rap", 
+        "year": 2013, 
+        "deezer_quote": 8.45
+      }, 
+      "candidate": "Alexandre Heitz", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Fell In Love With A Boy", 
+        "artist": "Joss Stone", 
+        "genre": "Klassischer Soul", 
+        "year": 2003, 
+        "deezer_quote": 6.13
+      }, 
+      "candidate": "Seda Acar", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Summer Is a Curse", 
+        "artist": "The FAIM", 
+        "genre": "Alternative/Indie", 
+        "year": 2018, 
+        "deezer_quote": 6.6
+      }, 
+      "candidate": "Christina Lindner", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "The Mad Hatter", 
+        "artist": "Kate Shindle, Wonderland Ensemble", 
+        "genre": "", 
+        "year": 2011, 
+        "deezer_quote": 1.64
+      }, 
+      "candidate": "Shireen Nikolic", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Ich lieb' dich überhaupt nicht mehr", 
+        "artist": "Udo Lindenberg & Das Panikorchester", 
+        "genre": "Rock", 
+        "year": 2011, 
+        "deezer_quote": 2.94
+      }, 
+      "candidate": "Johannes Holfeld", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Lash Out", 
+        "artist": "Alice Merton", 
+        "genre": "Alternative/Indie", 
+        "year": 2019, 
+        "deezer_quote": 4.91
+      }, 
+      "candidate": "Leanne Deliah Metzger", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Next To Me", 
+        "artist": "Imagine Dragons", 
+        "genre": "Indie-Rock", 
+        "year": 2017, 
+        "deezer_quote": 6.9
+      }, 
+      "candidate": "Igor Quennehen", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Take It All", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2011, 
+        "deezer_quote": 6.07
+      }, 
+      "candidate": "Diana Babalola", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Golden Slumbers", 
+        "artist": "The Beatles", 
+        "genre": "Rock", 
+        "year": 1969, 
+        "deezer_quote": 6.01
+      }, 
+      "candidate": "Tabea Sawatzky", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Way Down We Go", 
+        "artist": "KALEO", 
+        "genre": "Bluesrock, Alternative/Indie", 
+        "year": 2016, 
+        "deezer_quote": 8.12
+      }, 
+      "candidate": "Andreas Hauser", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Home", 
+        "artist": "Topic, Nico Santos", 
+        "genre": "Pop", 
+        "year": 2016, 
+        "deezer_quote": 5.75
+      }, 
+      "candidate": "Steffen Fromberger", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Bridge Over Troubled Water", 
+        "artist": "Simon & Garfunkel", 
+        "genre": "Folk-Rock, Folk, Pop", 
+        "year": 1970, 
+        "deezer_quote": 6.66
+      }, 
+      "candidate": "Lia Joham", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Too Much To Ask", 
+        "artist": "Niall Horan", 
+        "genre": "Classic Rock, Folk, Pop", 
+        "year": 2017, 
+        "deezer_quote": 5.09
+      }, 
+      "candidate": "Felix Kohloff", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Rock Your Body", 
+        "artist": "Justin Timberlake", 
+        "genre": "Pop", 
+        "year": 2002, 
+        "deezer_quote": 2.4
+      }, 
+      "candidate": "John Alexander Garner III", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Crying in the Rain", 
+        "artist": "a-ha", 
+        "genre": "Pop", 
+        "year": 1990, 
+        "deezer_quote": 6.56
+      }, 
+      "candidate": "Guido Goh", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Supermarket Flowers", 
+        "artist": "Ed Sheeran", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 8.3
+      }, 
+      "candidate": "Philipp von Unold", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Is This Love", 
+        "artist": "Bob Marley & The Wailers", 
+        "genre": "Reggae", 
+        "year": 1978, 
+        "deezer_quote": 8.82
+      }, 
+      "candidate": "Kathrin Eftekhrai", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "The Drugs Don't Work", 
+        "artist": "The Verve", 
+        "genre": "Britpop, Rock", 
+        "year": 1997, 
+        "deezer_quote": 4.08
+      }, 
+      "candidate": "Kira Mesterheider", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Paradise", 
+        "artist": "George Ezra", 
+        "genre": "Singer-Songwriter", 
+        "year": 2018, 
+        "deezer_quote": 8.61
+      }, 
+      "candidate": "Philipp Fixmer", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "no tears left to cry", 
+        "artist": "Ariana Grande", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 9.68
+      }, 
+      "candidate": "Benjamin Dolic", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Gangnam Style", 
+        "artist": "Psy", 
+        "genre": "K-Pop, Electro-House, Dance-Pop", 
+        "year": 2012, 
+        "deezer_quote": 7.58
+      }, 
+      "candidate": "Eun Chae Rhee", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Jenny Don't Be Hasty", 
+        "artist": "Paolo Nutini", 
+        "genre": "Singer-Songwriter", 
+        "year": 2006, 
+        "deezer_quote": 4.19
+      }, 
+      "candidate": "Sirio Meier", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "You Are The Reason", 
+        "artist": "Calum Scott", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 7.23
+      }, 
+      "candidate": "Damiano Maiolini", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Heart Of Stone", 
+        "artist": "Cher", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 2.91
+      }, 
+      "candidate": "Ute Spiegel", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Come Together", 
+        "artist": "The Beatles", 
+        "genre": "Pop-Rock, Rock", 
+        "year": 1969, 
+        "deezer_quote": 8.25
+      }, 
+      "candidate": "Mark Agpas", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Gotta Work", 
+        "artist": "Amerie", 
+        "genre": "Zeitgenössischer R&B, Pop", 
+        "year": 2007, 
+        "deezer_quote": 2.09
+      }, 
+      "candidate": "Laura Neels", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Du fängst mich ein", 
+        "artist": "Sasha", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Sebastian Stipp", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Enjoy the Silence", 
+        "artist": "Depeche Mode", 
+        "genre": "Dance/Electronic", 
+        "year": 1990, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Donovan Noesser", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Eine kleine Sehnsucht", 
+        "artist": "Friedrich Hollander", 
+        "genre": "Klassische Musik", 
+        "year": 1996, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Juliane Götz", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "You Give Love A Bad Name", 
+        "artist": "Bon Jovi", 
+        "genre": "Rock", 
+        "year": 1986, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Daniel Striffler", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Ordinary World", 
+        "artist": "Duran Duran", 
+        "genre": "", 
+        "year": 1993, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Jessica Schaffler", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "These Words", 
+        "artist": "Natasha Bedingfield", 
+        "genre": "Zeitgenössischer R&B, Pop", 
+        "year": 2007, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Kinga Balla", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Flames", 
+        "artist": "David Guetta, Sia", 
+        "genre": "Popmusik", 
+        "year": 2018, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Linda Alkohodr", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "She's Like the Wind", 
+        "artist": "Patrick Swayze, Wendy Fraser", 
+        "genre": "R&B/Soul, Pop", 
+        "year": 1987, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Timo Heßdörfer", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Willin'", 
+        "artist": "Little Feat", 
+        "genre": "Rock", 
+        "year": 1971, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Liam Blaney", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Breakfast In America", 
+        "artist": "Supertramp", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Falvio Baltermia", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Meine Soldaten", 
+        "artist": "Maxim", 
+        "genre": "", 
+        "year": 2013, 
+        "deezer_quote": 5.14
+      }, 
+      "candidate": "Mascha Winkels", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Stargazing", 
+        "artist": "Kygo, Justin Jesso", 
+        "genre": "Elektronische Tanzmusik, Tropical House", 
+        "year": 2017, 
+        "deezer_quote": 8.93
+      }, 
+      "candidate": "Amanda Jakucs", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Bis meine Welt die Augen schließt", 
+        "artist": "Alexander Knappe, Joel Brandenstein", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 5.05
+      }, 
+      "candidate": "Florian Kurz", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Play That Funky Music", 
+        "artist": "Wild Cherry", 
+        "genre": "", 
+        "year": 1976, 
+        "deezer_quote": 6.77
+      }, 
+      "candidate": "Felicia Peters", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Maneater", 
+        "artist": "Daryl Hall & John Oates", 
+        "genre": "Adult Contemporary", 
+        "year": 1982, 
+        "deezer_quote": 2.64
+      }, 
+      "candidate": "Lena Rotermund", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "A Thousand Years", 
+        "artist": "Christina Perri", 
+        "genre": "Pop", 
+        "year": 2011, 
+        "deezer_quote": 9.05
+      }, 
+      "candidate": "David Rodriguez Yanez", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "First Time", 
+        "artist": "Robin Beck", 
+        "genre": "Rock, Pop", 
+        "year": 1988, 
+        "deezer_quote": 3.33
+      }, 
+      "candidate": "Karina Klüber", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Naked", 
+        "artist": "James Arthur", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 9.3
+      }, 
+      "candidate": "Abdullah Azad", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Chandelier", 
+        "artist": "Sia", 
+        "genre": "Pop", 
+        "year": 2014, 
+        "deezer_quote": 9.65
+      }, 
+      "candidate": "Christian Schlotter", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Watch Over You", 
+        "artist": "Alter Bridge", 
+        "genre": "Hard Rock, Rock", 
+        "year": 2007, 
+        "deezer_quote": 2.55
+      }, 
+      "candidate": "Rico Meyer", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Pläne", 
+        "artist": "Ina Müller", 
+        "genre": "Pop", 
+        "year": 2013, 
+        "deezer_quote": 4.16
+      }, 
+      "candidate": "Rahel Maas", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Beautiful Tango", 
+        "artist": "Hindi Zahra", 
+        "genre": "Folk", 
+        "year": 2010, 
+        "deezer_quote": 5.61
+      }, 
+      "candidate": "Jélila Bouraoui", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Can't Fight This Feeling", 
+        "artist": "REO Speedwagon", 
+        "genre": "Rock", 
+        "year": 1984, 
+        "deezer_quote": 6.37
+      }, 
+      "candidate": "Deborah Vater", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Incomplete", 
+        "artist": "Backstreet Boys", 
+        "genre": "Pop", 
+        "year": 2005, 
+        "deezer_quote": 6.67
+      }, 
+      "candidate": "Tayloe Shore", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "I Miss You", 
+        "artist": "Clean Bandit, Julia Michaels", 
+        "genre": "Dance/Electronic", 
+        "year": 2018, 
+        "deezer_quote": 8.28
+      }, 
+      "candidate": "Alina Kubina", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Welt der Wunder", 
+        "artist": "Marteria", 
+        "genre": "Hip-Hop/Rap", 
+        "year": 2014, 
+        "deezer_quote": 4.47
+      }, 
+      "candidate": "Fabrice Richter-Reichhelm", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "The Middle", 
+        "artist": "ZEDD, Maren Morris, Grey", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 9.36
+      }, 
+      "candidate": "Maria Pasqua Casti", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "You Are So Beautiful", 
+        "artist": "Joe Cocker", 
+        "genre": "Classic Rock", 
+        "year": 1974, 
+        "deezer_quote": 6.69
+      }, 
+      "candidate": "Chantal Dom", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Steady, As She Goes", 
+        "artist": "The Raconteurs", 
+        "genre": "Alternative/Indie", 
+        "year": 2006, 
+        "deezer_quote": 5.03
+      }, 
+      "candidate": "Liana Jil Kälin", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Traum", 
+        "artist": "Cro", 
+        "genre": "Hip-Hop/Rap", 
+        "year": 2014, 
+        "deezer_quote": 4.47
+      }, 
+      "candidate": "Lars Kamphausen", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Water Under The Bridge", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2015, 
+        "deezer_quote": 7.31
+      }, 
+      "candidate": "Susanne Czech", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Just For Tonight", 
+        "artist": "James Bay", 
+        "genre": "Alternative/Indie", 
+        "year": 2018, 
+        "deezer_quote": 5.11
+      }, 
+      "candidate": "Luka Nozza", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Whataya Want from Me", 
+        "artist": "Adam Lambert", 
+        "genre": "Alternative/Indie, Pop", 
+        "year": 2009, 
+        "deezer_quote": 4.65
+      }, 
+      "candidate": "Kewin Owen", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "İsyan", 
+        "artist": "Halil Sezai", 
+        "genre": "", 
+        "year": 2011, 
+        "deezer_quote": 4.68
+      }, 
+      "candidate": "Sinem Uraz", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "it", 
+        "title": "Con te", 
+        "artist": "Sergio Sylvestre", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 3.48
+      }, 
+      "candidate": "Samuele Di Dio", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Tag am Meer", 
+        "artist": "Die Fantastischen Vier", 
+        "genre": "Hip-Hop/Rap", 
+        "year": 1993, 
+        "deezer_quote": 2.79
+      }, 
+      "candidate": "Dominik Hartz", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Bills, Bills, Bills", 
+        "artist": "Destiny's Child", 
+        "genre": "", 
+        "year": 1999, 
+        "deezer_quote": 3.36
+      }, 
+      "candidate": "Doriane Kamdem Mabou", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "An Wunder", 
+        "artist": "Wincent Weiss", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 4.98
+      }, 
+      "candidate": "Joshua Tappe", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Fast Car", 
+        "artist": "Tracy Chapman", 
+        "genre": "Singer-Songwriter", 
+        "year": 1988, 
+        "deezer_quote": 8.36
+      }, 
+      "candidate": "Cem Kücük", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "de", 
+        "title": "Ich bereue nichts", 
+        "artist": "Silbermond", 
+        "genre": "Rock", 
+        "year": 2009, 
+        "deezer_quote": 3.0
+      }, 
+      "candidate": "Grit Gräßler", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Lego House", 
+        "artist": "Ed Sheeran", 
+        "genre": "Folk, Pop", 
+        "year": 2011, 
+        "deezer_quote": 7.19
+      }, 
+      "candidate": "Patrice Gerlach", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Mirrors", 
+        "artist": "Justin Timberlake", 
+        "genre": "Pop", 
+        "year": 2013, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Felicitas Mayer", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Rooftop", 
+        "artist": "Nico Santos", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Erik van Hoof", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Wonderful Tonight", 
+        "artist": "Eric Clapton", 
+        "genre": "Softrock, Pop", 
+        "year": 1977, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Mattis Laustroer", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Here It Goes Again", 
+        "artist": "OK Go", 
+        "genre": "Alternative/Indie", 
+        "year": 2005, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Mario Geckeler", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Remedy", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2015, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Malin Lewis", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Call Out My Name", 
+        "artist": "The Weeknd", 
+        "genre": "R&B/Soul", 
+        "year": 2018, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Stefan Celar", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Go the Distance", 
+        "artist": "Roger Bart", 
+        "genre": "Christliche Musik/Gospel, Kindermusik", 
+        "year": 1997, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Dennis-Luis Fortes", 
+      "show": "blinds"
+    }, 
+    {
+      "song_infos": {
+        "lang": "en", 
+        "title": "Tom Traubert's Blues", 
+        "artist": "Tom Waits", 
+        "genre": "Jazz", 
+        "year": 1976, 
+        "deezer_quote": 8.44
+      }, 
+      "candidate": "Penni Jo Blatterman", 
+      "show": "blinds"
+    }, 
+    {
+      "candidate_name": "Alessandro Rütten", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Dusk Till Dawn", 
+        "artist": "ZAYN, Sia", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Judith Jandl", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Dusk Till Dawn", 
+        "artist": "ZAYN, Sia", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Rahel Maas", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Freiheit", 
+        "artist": "Westernhagen (WEA)", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Johannes Holfeld", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Freiheit", 
+        "artist": "Westernhagen (WEA)", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Bernarda Brunovic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Rolling In The Deep", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2011, 
+        "deezer_quote": 7.73
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Laura Neels", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Rolling In The Deep", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2011, 
+        "deezer_quote": 7.73
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Kira Mesterheide", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Beat It", 
+        "artist": "Fall Out Boy, John Mayer", 
+        "genre": "Emo/Hardcore, Alternative/Indie, Rock", 
+        "year": 2008, 
+        "deezer_quote": 6.11
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Debora Vater", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Beat It", 
+        "artist": "Fall Out Boy, John Mayer", 
+        "genre": "Emo/Hardcore, Alternative/Indie, Rock", 
+        "year": 2008, 
+        "deezer_quote": 6.11
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Lars Kamphausen", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Alles ist jetzt", 
+        "artist": "Bosse", 
+        "genre": "Pop", 
+        "year": 0, 
+        "deezer_quote": 5.57
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Dominik Hartz", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Alles ist jetzt", 
+        "artist": "Bosse", 
+        "genre": "Pop", 
+        "year": 0, 
+        "deezer_quote": 5.57
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Jessica Schaffler", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Alles ist jetzt", 
+        "artist": "Bosse", 
+        "genre": "Pop", 
+        "year": 0, 
+        "deezer_quote": 5.57
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Penni Jo Blatterman", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Alles ist jetzt", 
+        "artist": "Bosse", 
+        "genre": "Pop", 
+        "year": 0, 
+        "deezer_quote": 5.57
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Felicitas Mayer", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Unter meiner Haut", 
+        "artist": "Elif", 
+        "genre": "Dance/Electronic", 
+        "year": 2015, 
+        "deezer_quote": 4.04
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Sinem Uraz", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Unter meiner Haut", 
+        "artist": "Elif", 
+        "genre": "Dance/Electronic", 
+        "year": 2015, 
+        "deezer_quote": 4.04
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Diana Babalola", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Genius", 
+        "artist": "LSD, Sia, Diplo, Labrinth", 
+        "genre": "House", 
+        "year": 2013, 
+        "deezer_quote": 9.29
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "John Alexander Garner III", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Genius", 
+        "artist": "LSD, Sia, Diplo, Labrinth", 
+        "genre": "House", 
+        "year": 2013, 
+        "deezer_quote": 9.29
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Melissa Muamba", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Don't Give Up", 
+        "artist": "Peter Gabriel", 
+        "genre": "", 
+        "year": 1986, 
+        "deezer_quote": 5.64
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Damiano Maiolini", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Don't Give Up", 
+        "artist": "Peter Gabriel", 
+        "genre": "", 
+        "year": 1986, 
+        "deezer_quote": 5.64
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Misses Melaza", 
+      "song_infos": {
+        "lang": "es", 
+        "title": "La Cintura", 
+        "artist": "Alvaro Soler, Flo Rida, TINI", 
+        "genre": "", 
+        "year": 2018, 
+        "deezer_quote": 7.72
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Alexandre Heitz", 
+      "song_infos": {
+        "lang": "es", 
+        "title": "La Cintura", 
+        "artist": "Alvaro Soler, Flo Rida, TINI", 
+        "genre": "", 
+        "year": 2018, 
+        "deezer_quote": 7.72
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Chantal Dorn", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Me and Mrs. Jones", 
+        "artist": "Billy Paul", 
+        "genre": "Pop", 
+        "year": 1972, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Giuliano De Stefano", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Me and Mrs. Jones", 
+        "artist": "Billy Paul", 
+        "genre": "Pop", 
+        "year": 1972, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Nora Brandenburger", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "One Last Time", 
+        "artist": "Ariana Grande", 
+        "genre": "R&B/Soul, Teen Pop, Pop", 
+        "year": 2014, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Shireen Nikolic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "One Last Time", 
+        "artist": "Ariana Grande", 
+        "genre": "R&B/Soul, Teen Pop, Pop", 
+        "year": 2014, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Juliane Götz", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "I'm Not The Only One", 
+        "artist": "Sam Smith", 
+        "genre": "Alternative/Indie, Pop", 
+        "year": 2014, 
+        "deezer_quote": 9.0
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Flavio Baltermia", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "I'm Not The Only One", 
+        "artist": "Sam Smith", 
+        "genre": "Alternative/Indie, Pop", 
+        "year": 2014, 
+        "deezer_quote": 9.0
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Kathrin 'Kaye-Ree' Eftekhari", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Tears Dry On Their Own", 
+        "artist": "Amy Winehouse", 
+        "genre": "", 
+        "year": 2006, 
+        "deezer_quote": 7.35
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Malin Lewis", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Tears Dry On Their Own", 
+        "artist": "Amy Winehouse", 
+        "genre": "", 
+        "year": 2006, 
+        "deezer_quote": 7.35
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "James Smith Jr.", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Us", 
+        "artist": "James Bay, Alicia Keys", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 6.37
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Doriane Kamdem Mabou", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Us", 
+        "artist": "James Bay, Alicia Keys", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 6.37
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Stefan Celar", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Cry Me a River", 
+        "artist": "Justin Timberlake", 
+        "genre": "Pop", 
+        "year": 2002, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Benjamin Dolic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Cry Me a River", 
+        "artist": "Justin Timberlake", 
+        "genre": "Pop", 
+        "year": 2002, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Sascha Coles", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Schwarz zu blau", 
+        "artist": "Peter Fox", 
+        "genre": "Reggae, Pop", 
+        "year": 2008, 
+        "deezer_quote": 5.95
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Andreas Hauser", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Schwarz zu blau", 
+        "artist": "Peter Fox", 
+        "genre": "Reggae, Pop", 
+        "year": 2008, 
+        "deezer_quote": 5.95
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Linda Alkhodor", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Nobody's Perfect", 
+        "artist": "Jessie J", 
+        "genre": "Christliche Musik/Gospel, Pop", 
+        "year": 2011, 
+        "deezer_quote": 6.17
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Abdullah Azad", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Nobody's Perfect", 
+        "artist": "Jessie J", 
+        "genre": "Christliche Musik/Gospel, Pop", 
+        "year": 2011, 
+        "deezer_quote": 6.17
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Luka Nozza", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Take Me To Church", 
+        "artist": "Hozier", 
+        "genre": "", 
+        "year": 2013, 
+        "deezer_quote": 9.21
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Hugo Gonzalez Morales", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Take Me To Church", 
+        "artist": "Hozier", 
+        "genre": "", 
+        "year": 2013, 
+        "deezer_quote": 9.21
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Mattis Laustroer", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Ich will noch nicht nach Hause", 
+        "artist": "Johannes Oerding", 
+        "genre": "Pop", 
+        "year": 2015, 
+        "deezer_quote": 4.01
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Florian Alexander Kurz", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Ich will noch nicht nach Hause", 
+        "artist": "Johannes Oerding", 
+        "genre": "Pop", 
+        "year": 2015, 
+        "deezer_quote": 4.01
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Patrice Gerlach", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Ich will noch nicht nach Hause", 
+        "artist": "Johannes Oerding", 
+        "genre": "Pop", 
+        "year": 2015, 
+        "deezer_quote": 4.01
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Karina Klüber", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "In The Ghetto", 
+        "artist": "Elvis Presley", 
+        "genre": "Country-Musik, Rockmusik, Soul", 
+        "year": 1969, 
+        "deezer_quote": 6.51
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Alexander Eder", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "In The Ghetto", 
+        "artist": "Elvis Presley", 
+        "genre": "Country-Musik, Rockmusik, Soul", 
+        "year": 1969, 
+        "deezer_quote": 6.51
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Kinga Noémi Balla", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "What You Waiting For?", 
+        "artist": "Gwen Stefani", 
+        "genre": "Pop", 
+        "year": 2004, 
+        "deezer_quote": 6.4
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Eun Chae Rhee", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "What You Waiting For?", 
+        "artist": "Gwen Stefani", 
+        "genre": "Pop", 
+        "year": 2004, 
+        "deezer_quote": 6.4
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Kathrin 'Kaye-Ree' Eftekhari", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Tears Dry On Their Own", 
+        "artist": "Amy Winehouse", 
+        "genre": "", 
+        "year": 2006, 
+        "deezer_quote": 7.35
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Malin Lewis", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Tears Dry On Their Own", 
+        "artist": "Amy Winehouse", 
+        "genre": "", 
+        "year": 2006, 
+        "deezer_quote": 7.35
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Eros Atomus Isler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Riptide", 
+        "artist": "Vance Joy", 
+        "genre": "Singer-Songwriter, Alternative/Indie", 
+        "year": 2013, 
+        "deezer_quote": 9.21
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Steffen Frommberger", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Riptide", 
+        "artist": "Vance Joy", 
+        "genre": "Singer-Songwriter, Alternative/Indie", 
+        "year": 2013, 
+        "deezer_quote": 9.21
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Sascha Coles", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Schwarz zu blau", 
+        "artist": "Peter Fox", 
+        "genre": "Reggae, Pop", 
+        "year": 2008, 
+        "deezer_quote": 5.95
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Andreas Hauser", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Schwarz zu blau", 
+        "artist": "Peter Fox", 
+        "genre": "Reggae, Pop", 
+        "year": 2008, 
+        "deezer_quote": 5.95
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Clifford Dwenger", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Firebreather", 
+        "artist": "Macklemore, Reignwolf", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 5.45
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Felicia Peters", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Firebreather", 
+        "artist": "Macklemore, Reignwolf", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 5.45
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Igor Quennehen", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Firebreather", 
+        "artist": "Macklemore, Reignwolf", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 5.45
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Mascha Winkels", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Ex's & Oh's", 
+        "artist": "Elle King", 
+        "genre": "Rock", 
+        "year": 2015, 
+        "deezer_quote": 7.13
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Lia Joham", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Ex's & Oh's", 
+        "artist": "Elle King", 
+        "genre": "Rock", 
+        "year": 2015, 
+        "deezer_quote": 7.13
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Seda Acar", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Milkshake", 
+        "artist": "Kelis", 
+        "genre": "Zeitgenössischer R&B", 
+        "year": 2003, 
+        "deezer_quote": 6.61
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Jeanie Celina Schultheiß", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Milkshake", 
+        "artist": "Kelis", 
+        "genre": "Zeitgenössischer R&B", 
+        "year": 2003, 
+        "deezer_quote": 6.61
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Cem Kücük", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Something Just Like This", 
+        "artist": "The Chainsmokers, Coldplay", 
+        "genre": "Dance/Electronic", 
+        "year": 2017, 
+        "deezer_quote": 9.65
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Coby Grant", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Something Just Like This", 
+        "artist": "The Chainsmokers, Coldplay", 
+        "genre": "Dance/Electronic", 
+        "year": 2017, 
+        "deezer_quote": 9.65
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Sebastian Stipp", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Cello", 
+        "artist": "Udo Lindenberg, Clueso", 
+        "genre": "Rock", 
+        "year": 2011, 
+        "deezer_quote": 5.11
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Fabrice Richter-Reichhelm", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Cello", 
+        "artist": "Udo Lindenberg, Clueso", 
+        "genre": "Rock", 
+        "year": 2011, 
+        "deezer_quote": 5.11
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Chantal Dorn", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Me and Mrs. Jones", 
+        "artist": "Billy Paul", 
+        "genre": "Pop", 
+        "year": 1972, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Giuliano De Stefano", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Me and Mrs. Jones", 
+        "artist": "Billy Paul", 
+        "genre": "Pop", 
+        "year": 1972, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Matthias Nebel", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Spoonman", 
+        "artist": "Soundgarden", 
+        "genre": "Alternative Metal", 
+        "year": 1994, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Taylor Shore", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Spoonman", 
+        "artist": "Soundgarden", 
+        "genre": "Alternative Metal", 
+        "year": 1994, 
+        "deezer_quote": 8.44
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Bernarda Brunovic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Rolling In The Deep", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2011, 
+        "deezer_quote": 7.73
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Laura Neels", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Rolling In The Deep", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2011, 
+        "deezer_quote": 7.73
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Liam Blaney", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Down By the Sally Gardens", 
+        "artist": "Loreena McKennitt", 
+        "genre": "Keltische Musik", 
+        "year": 2010, 
+        "deezer_quote": 2.67
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Gaby Schwager", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Down By the Sally Gardens", 
+        "artist": "Loreena McKennitt", 
+        "genre": "Keltische Musik", 
+        "year": 2010, 
+        "deezer_quote": 2.67
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Amanda Lena Jakucs", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Whatever You Want", 
+        "artist": "P!nk", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 7.65
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Maria Pasqua Casti", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Whatever You Want", 
+        "artist": "P!nk", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 7.65
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Lena Rotermund", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Whatever You Want", 
+        "artist": "P!nk", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 7.65
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Monica Lewis-Schmidt", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Happy", 
+        "artist": "Pharrell Williams", 
+        "genre": "Pop", 
+        "year": 2013, 
+        "deezer_quote": 8.83
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Samuele Di Dio", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Happy", 
+        "artist": "Pharrell Williams", 
+        "genre": "Pop", 
+        "year": 2013, 
+        "deezer_quote": 8.83
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Jélila Bouraoui", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "In The Air Tonight", 
+        "artist": "Phil Collins", 
+        "genre": "Pop", 
+        "year": 1981, 
+        "deezer_quote": 5.41
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Guido Goh", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "In The Air Tonight", 
+        "artist": "Phil Collins", 
+        "genre": "Pop", 
+        "year": 1981, 
+        "deezer_quote": 5.41
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Philipp von Unold", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Perfect Symphony", 
+        "artist": "Ed Sheeran, Andrea Bocelli", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 7.92
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Ludmila Larusso", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Perfect Symphony", 
+        "artist": "Ed Sheeran, Andrea Bocelli", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 7.92
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Fabian Riaz", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Still", 
+        "artist": "Jupiter Jones", 
+        "genre": "", 
+        "year": 2011, 
+        "deezer_quote": 5.42
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Samuel Rösch", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Still", 
+        "artist": "Jupiter Jones", 
+        "genre": "", 
+        "year": 2011, 
+        "deezer_quote": 5.42
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Sümeyra Stahl", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Youngblood", 
+        "artist": "5 Seconds Of Summer", 
+        "genre": "Pop-Rock, Pop", 
+        "year": 2018, 
+        "deezer_quote": 8.72
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Mario Geckeler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Youngblood", 
+        "artist": "5 Seconds Of Summer", 
+        "genre": "Pop-Rock, Pop", 
+        "year": 2018, 
+        "deezer_quote": 8.72
+      }, 
+      "show": "battles"
+    }, 
+    {
+      "candidate_name": "Alessandro Rütten", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Hotter Than Hell", 
+        "artist": "Dua Lipa", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Damiano Maiolini", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "She Said", 
+        "artist": "Plan B", 
+        "genre": "Grime", 
+        "year": 2010, 
+        "deezer_quote": 6.17
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Diana Babalola", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Nutbush City Limits", 
+        "artist": "Ike & Tina Turner", 
+        "genre": "Jazz, Klassischer R&B, Klassischer Soul, Britpop, R&B/Soul, Adult Contemporary, Dance/Electronic, Funk, Rock, Pop", 
+        "year": 1973, 
+        "deezer_quote": 3.54
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Dominik Hartz", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Bye Bye", 
+        "artist": "Cro", 
+        "genre": "Hip-Hop/Rap", 
+        "year": 2014, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Felicitas Mayer", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "If I Wasn't Your Daughter", 
+        "artist": "Lena", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 5.26
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Jessica Schaffler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "human", 
+        "artist": "Christina Perri", 
+        "genre": "Pop", 
+        "year": 2014, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Kira Mesterheide", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Jealous", 
+        "artist": "Labrinth", 
+        "genre": "R&B/Soul, Dance/Electronic, Pop", 
+        "year": 2017, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Laura Neels", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Don't Leave Me Alone", 
+        "artist": "David Guetta, Anne-Marie", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 9.54
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Misses Melaza", 
+      "song_infos": {
+        "lang": "es", 
+        "title": "Despacito", 
+        "artist": "Luis Fonsi, Daddy Yankee", 
+        "genre": "Reggaeton, Latin Pop", 
+        "year": 2017, 
+        "deezer_quote": 9.52
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Rahel Maas", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Zu dir", 
+        "artist": "LEA", 
+        "genre": "", 
+        "year": 2018, 
+        "deezer_quote": 8.15
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Bernarda Brunovic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Lady Marmalade", 
+        "artist": "Patti LaBelle", 
+        "genre": "", 
+        "year": 2008, 
+        "deezer_quote": 6.11
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Chantal Dorn", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Lovesong", 
+        "artist": "Adele", 
+        "genre": "Pop", 
+        "year": 2011, 
+        "deezer_quote": 6.59
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Guido Goh", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "With Or Without You", 
+        "artist": "U2", 
+        "genre": "Alternative/Indie, Rock", 
+        "year": 1987, 
+        "deezer_quote": 8.9
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Liam Blaney", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Shotgun", 
+        "artist": "George Ezra", 
+        "genre": "Singer-Songwriter", 
+        "year": 2018, 
+        "deezer_quote": 9.66
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Ludmila Larusso", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Who Wants To Live Forever", 
+        "artist": "Queen", 
+        "genre": "Classic Rock, Rock", 
+        "year": 1986, 
+        "deezer_quote": 3.71
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Maria Pasqua Casti", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Happy Now", 
+        "artist": "ZEDD, Elley Duhe", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 9.65
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Matthias Nebel", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Breakeven", 
+        "artist": "The Script", 
+        "genre": "Alternative/Indie, Pop", 
+        "year": 2008, 
+        "deezer_quote": 3.68
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Monica Lewis-Schmidt", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Ain't Nobody", 
+        "artist": "Chaka Khan", 
+        "genre": "Pop", 
+        "year": 1983, 
+        "deezer_quote": 7.28
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Samuel Rösch", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Auf anderen Wegen", 
+        "artist": "Andreas Bourani", 
+        "genre": "", 
+        "year": 2014, 
+        "deezer_quote": 3.95
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Sümeyra Stahl", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "No Roots", 
+        "artist": "Alice Merton", 
+        "genre": "Pop", 
+        "year": 2019, 
+        "deezer_quote": 6.32
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Alexander Eder", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Ring of Fire", 
+        "artist": "Johnny Cash", 
+        "genre": "Jazz, Easy Listening, Alternative/Indie, Christliche Musik/Gospel, Rock, Country, Folk, Country-Klassiker, Pop", 
+        "year": 1963, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Clifford Dwenger", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Niggas in Paris", 
+        "artist": "Kanye West, Jay-Z", 
+        "genre": "Hip-Hop/Rap", 
+        "year": 2011, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Coby Grant", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "I Wanna Dance with Somebody", 
+        "artist": "Whitney Houston", 
+        "genre": "R&B/Soul", 
+        "year": 1987, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Eros Atomus Isler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Roxanne", 
+        "artist": "The Police", 
+        "genre": "New Wave/Post-Punk, Punk", 
+        "year": 1978, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Fabrice Richter-Reichhelm", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Keinen Zentimeter", 
+        "artist": "Clueso", 
+        "genre": "", 
+        "year": 2008, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Jeanie Celina Schultheiß", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Genie in a Bottle", 
+        "artist": "Christina Aguilera", 
+        "genre": "Pop", 
+        "year": 1999, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Kathrin 'Kaye-Ree' Eftekhari", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Grenade", 
+        "artist": "Bruno Mars", 
+        "genre": "Pop", 
+        "year": 2010, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Lia Joham", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Believer", 
+        "artist": "Imagine Dragons", 
+        "genre": "Pop-Rock, Alternative/Indie, Pop", 
+        "year": 2017, 
+        "deezer_quote": 7.83
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Sascha Coles", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Breaking The Habit", 
+        "artist": "Linkin Park", 
+        "genre": "Alternative Rock", 
+        "year": 2003, 
+        "deezer_quote": 6.22
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Andreas Hauser", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Summer Is a Curse", 
+        "artist": "The FAIM", 
+        "genre": "Alternative/Indie", 
+        "year": 2018, 
+        "deezer_quote": 6.6
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Benjamin Dolic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Stay", 
+        "artist": "Rihanna, Mikky Ekko", 
+        "genre": "Pop", 
+        "year": 2012, 
+        "deezer_quote": 8.98
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Flavio Baltermia", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "I'm All Over It", 
+        "artist": "Jamie Cullum", 
+        "genre": "Jazz", 
+        "year": 2009, 
+        "deezer_quote": 4.53
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Giuliano De Stefano", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "It's A Man's, Man's, Man's World", 
+        "artist": "James Brown", 
+        "genre": "Funk", 
+        "year": 1963, 
+        "deezer_quote": 2.78
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Hugo Gonzalez Morales", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "XO", 
+        "artist": "Beyoncé", 
+        "genre": "Zeitgenössischer R&B", 
+        "year": 2013, 
+        "deezer_quote": 7.43
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "James Smith Jr.", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Earned It", 
+        "artist": "The Weeknd", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 9.03
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Linda Alkhodor", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Tell Me You Love Me", 
+        "artist": "Demi Lovato", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 7.83
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Malin Lewis", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Brand New Me", 
+        "artist": "Alicia Keys", 
+        "genre": "Zeitgenössischer R&B", 
+        "year": 2012, 
+        "deezer_quote": 6.15
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Nora Brandenburger", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "When We Were Young", 
+        "artist": "Adele", 
+        "genre": "Soul", 
+        "year": 2015, 
+        "deezer_quote": 8.16
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Patrice Gerlach", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Bubbly", 
+        "artist": "Colbie Caillat", 
+        "genre": "Adult Contemporary, Alternative/Indie, Folk, Pop", 
+        "year": 2007, 
+        "deezer_quote": 5.0
+      }, 
+      "show": "sing-offs"
+    }, 
+    {
+      "candidate_name": "Bernarda Brunovic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Free Your Mind", 
+        "artist": "En Vogue", 
+        "genre": "", 
+        "year": 1992, 
+        "deezer_quote": 4.62
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Matthias Nebel", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Wrecking Ball", 
+        "artist": "Miley Cyrus", 
+        "genre": "Pop", 
+        "year": 2013, 
+        "deezer_quote": 8.7
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Samuel Rösch", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Der Weg", 
+        "artist": "Herbert Grönemeyer", 
+        "genre": "Pop", 
+        "year": 2002, 
+        "deezer_quote": 5.48
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Clifford Dwenger", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "California Love", 
+        "artist": "2Pac, Roger Troutman, Dr. Dre", 
+        "genre": "", 
+        "year": 1996, 
+        "deezer_quote": 7.87
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Coby Grant", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Let It Go", 
+        "artist": "James Bay", 
+        "genre": "Singer-Songwriter, Alternative/Indie, Rock", 
+        "year": 2015, 
+        "deezer_quote": 7.32
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Eros Atomus Isler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Another Love", 
+        "artist": "Tom Odell", 
+        "genre": "Singer-Songwriter", 
+        "year": 2013, 
+        "deezer_quote": 7.54
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Benjamin Dolic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Can't Help Falling in Love with You", 
+        "artist": "Elvis Presley", 
+        "genre": "", 
+        "year": 1969, 
+        "deezer_quote": 6.53
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "James Smith Jr.", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Medley: Summer Love / Set the Mood", 
+        "artist": "Justin Timberlake", 
+        "genre": "", 
+        "year": 0, 
+        "deezer_quote": 4.86
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Linda Alkhodor", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Scars To Your Beautiful", 
+        "artist": "Alessia Cara", 
+        "genre": "Zeitgenössischer R&B", 
+        "year": 2015, 
+        "deezer_quote": 8.25
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Diana Babalola", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Crazy", 
+        "artist": "Aerosmith", 
+        "genre": "Rock, Pop", 
+        "year": 1993, 
+        "deezer_quote": 8.13
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Jessica Schaffler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Head Above Water", 
+        "artist": "Avril Lavigne", 
+        "genre": "Pop-Rock, Pop", 
+        "year": 2019, 
+        "deezer_quote": 8.63
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Rahel Maas", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Schön genug", 
+        "artist": "Lina Maly", 
+        "genre": "Pop", 
+        "year": 2016, 
+        "deezer_quote": 5.43
+      }, 
+      "show": "half-final"
+    }, 
+    {
+      "candidate_name": "Jessica Schaffler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Half As Good As You", 
+        "artist": "Tom Odell, Alice Merton", 
+        "genre": "Singer-Songwriter", 
+        "year": 2018, 
+        "deezer_quote": 6.15
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Jessica Schaffler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "A Million Dreams", 
+        "artist": "P!nk", 
+        "genre": "Pop", 
+        "year": 2017, 
+        "deezer_quote": 9.42
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Jessica Schaffler", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Einmal", 
+        "artist": "Mark Forster", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 6.86
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Samuel Rösch", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "In diesem Moment", 
+        "artist": "Roger Cicero", 
+        "genre": "Jazz", 
+        "year": 0, 
+        "deezer_quote": 5.65
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Samuel Rösch", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Auf uns", 
+        "artist": "Andreas Bourani", 
+        "genre": "", 
+        "year": 2014, 
+        "deezer_quote": 6.07
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Samuel Rösch", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Love Someone", 
+        "artist": "Lukas Graham", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 8.71
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Eros Atomus Isler", 
+      "song_infos": {
+        "lang": "de", 
+        "title": "Zusammen feat. Clueso", 
+        "artist": "Die Fantastischen Vier, Clueso", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 7.56
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Eros Atomus Isler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Fly Me To The Moon", 
+        "artist": "Frank Sinatra, Count Basie and his Orchestra", 
+        "genre": "Jazz", 
+        "year": 0, 
+        "deezer_quote": 5.28
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Eros Atomus Isler", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Thursday", 
+        "artist": "Jess Glynne", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 8.8
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Benjamin Dolic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Creep", 
+        "artist": "Radiohead", 
+        "genre": "Alternative/Indie", 
+        "year": 1993, 
+        "deezer_quote": 6.64
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Benjamin Dolic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "Ruin My Life", 
+        "artist": "Zara Larsson", 
+        "genre": "Pop", 
+        "year": 2018, 
+        "deezer_quote": 9.7
+      }, 
+      "show": "final"
+    }, 
+    {
+      "candidate_name": "Benjamin Dolic", 
+      "song_infos": {
+        "lang": "en", 
+        "title": "She's Out of My Life", 
+        "artist": "Michael Jackson", 
+        "genre": "Pop", 
+        "year": 1979, 
+        "deezer_quote": 5.52
+      }, 
+      "show": "final"
+    }
+  ], 
+  "candidates_ages": {
+    "Mattis Laustroer": 19, 
+    "Daniel Striffler": -1, 
+    "Diana Babalola": 26, 
+    "Mario Geckeler": 28, 
+    "Steffen Fromberger": -1, 
+    "Rico Meyer": -1, 
+    "Kira Mesterheider": -1, 
+    "James Smith Jr.": 16, 
+    "Laura Neels": 32, 
+    "Jélila Bouraoui": 39, 
+    "Jeanie Celina Schultheis": -1, 
+    "Juliane Götz": 19, 
+    "Alexandre Heitz": 21, 
+    "Eun Chae Rhee": 23, 
+    "David Henn": -1, 
+    "Eros Isler": -1, 
+    "Felix Kohloff": -1, 
+    "Melissa Muamba": 25, 
+    "Amanda Lena Jakucs": 23, 
+    "Florian Kurz": -1, 
+    "Kinga Noémi Balla": 24, 
+    "Matthias Nebel": 27, 
+    "Andreas Hauser": 25, 
+    "Amanda Jakucs": -1, 
+    "Mark Agpas": 38, 
+    "Steffen Frommberger": 36, 
+    "Sebastian Stipp": 33, 
+    "Christina Lindner": -1, 
+    "Eros Atomus Isler": 18, 
+    "Ute Spiegel": -1, 
+    "Kinga Balla": -1, 
+    "Taylor Shore": 35, 
+    "Lisa Lukoschek": -1, 
+    "Chantal Dorn": 54, 
+    "Tayloe Shore": -1, 
+    "Johannes Holfeld": 37, 
+    "Linda Alkohodr": -1, 
+    "Philipp von Unold": 22, 
+    "Lia Joham": 21, 
+    "David Rodriguez Yanez": -1, 
+    "Misses Melaza": 35, 
+    "Igor Quennehen": 29, 
+    "Judith Jandl": 27, 
+    "Mario Novack": -1, 
+    "Chantal Dom": -1, 
+    "Malin Lewis": 25, 
+    "Alina Kubina": -1, 
+    "Florian Alexander Kurz": 17, 
+    "Samuele Di Dio": 24, 
+    "Dennis-Luis Fortes": -1, 
+    "Debora Vater": 32, 
+    "Shireen Nikolic": 27, 
+    "Benjamin Dolic": 21, 
+    "Lars Kamphausen": 19, 
+    "Luka Nozza": 23, 
+    "Felicitas Mayer": 20, 
+    "Seda Acar": 23, 
+    "Michelle Patz": -1, 
+    "Maria Pasqua Casti": 21, 
+    "Deborah Vater": -1, 
+    "Fabrice Richter-Reichhelm": 26, 
+    "Julian Coles": -1, 
+    "James Smith jr.": -1, 
+    "Eva Kaufmann": -1, 
+    "Mascha Winkels": 28, 
+    "Erik van Hoof": -1, 
+    "Penni Jo Blatterman": 45, 
+    "Sinem Uraz": 18, 
+    "Dominik Hartz": 20, 
+    "Damiano Maiolini": 27, 
+    "Patrice Gerlach": 21, 
+    "Bernarda Brunovic": 25, 
+    "Stefan Celar": 24, 
+    "Jessica Schaffler": 17, 
+    "Falvio Baltermia": -1, 
+    "Fabian Riaz": 30, 
+    "Liam Blaney": 27, 
+    "Sascha Coles": 32, 
+    "Timo Heßdörfer": -1, 
+    "Kewin Owen": -1, 
+    "John Alexander Garner III": 34, 
+    "Jeanie Celina Schultheiß": 18, 
+    "Alessandro Rütten": 22, 
+    "Samantha Krug": -1, 
+    "Gaby Schwager": 27, 
+    "Alexander Eder": 19, 
+    "Linda Alkhodor": 16, 
+    "Giuliano De Stefano": 25, 
+    "Cem Kücük": 22, 
+    "Flavio Baltermia": 42, 
+    "Liana Jil Kälin": -1, 
+    "Joshua Tappe": -1, 
+    "Hugo Gonzalez Morales": 19, 
+    "Clifford Dwenger": 25, 
+    "Karina Klüber": 30, 
+    "Rahel Maas": 23, 
+    "Kathrin 'Kaye-Ree' Eftekhari": 39, 
+    "Christian Schlotter": -1, 
+    "Nora Brandenburger": 31, 
+    "Monica Lewis-Schmidt": 52, 
+    "Susanne Czech": -1, 
+    "Sümeyra Stahl": 31, 
+    "Felicia Peters": 54, 
+    "Philipp Fixmer": -1, 
+    "Coby Grant": 32, 
+    "Lena Rotermund": 16, 
+    "Kira Mesterheide": 23, 
+    "Ludmila Larusso": 58, 
+    "Guido Goh": 48, 
+    "Sirio Meier": -1, 
+    "Kathrin Eftekhrai": -1, 
+    "Samuel Rösch": 24, 
+    "Doriane Kamdem Mabou": 18, 
+    "Leanne Deliah Metzger": -1, 
+    "Kendra Lynne Pilling": -1, 
+    "Grit Gräßler": -1, 
+    "Donovan Noesser": -1, 
+    "Tabea Sawatzky": -1, 
+    "Abdullah Azad": 19
+  }, 
+  "now": 2019, 
+  "deezer-quote": {
+    "max": 9.85, 
+    "min": 1.64
+  }, 
+  "num_performances": 250, 
+  "candidates_names": [
+    "Amanda Lena Jakucs", 
+    "Bernarda Brunovic", 
+    "Chantal Dorn", 
+    "Fabian Riaz", 
+    "Gaby Schwager", 
+    "Guido Goh", 
+    "Jélila Bouraoui", 
+    "Lena Rotermund", 
+    "Liam Blaney", 
+    "Ludmila Larusso", 
+    "Maria Pasqua Casti", 
+    "Mario Geckeler", 
+    "Matthias Nebel", 
+    "Monica Lewis-Schmidt", 
+    "Philipp von Unold", 
+    "Samuel Rösch", 
+    "Samuele Di Dio", 
+    "Sümeyra Stahl", 
+    "Taylor Shore", 
+    "Abdullah Azad", 
+    "Andreas Hauser", 
+    "Benjamin Dolic", 
+    "Doriane Kamdem Mabou", 
+    "Flavio Baltermia", 
+    "Florian Alexander Kurz", 
+    "Giuliano De Stefano", 
+    "Hugo Gonzalez Morales", 
+    "James Smith Jr.", 
+    "Juliane Götz", 
+    "Linda Alkhodor", 
+    "Luka Nozza", 
+    "Mattis Laustroer", 
+    "Nora Brandenburger", 
+    "Patrice Gerlach", 
+    "Sascha Coles", 
+    "Shireen Nikolic", 
+    "Stefan Celar", 
+    "Alexander Eder", 
+    "Cem Kücük", 
+    "Clifford Dwenger", 
+    "Coby Grant", 
+    "Eros Atomus Isler", 
+    "Eun Chae Rhee", 
+    "Fabrice Richter-Reichhelm", 
+    "Felicia Peters", 
+    "Igor Quennehen", 
+    "Jeanie Celina Schultheiß", 
+    "Karina Klüber", 
+    "Kathrin 'Kaye-Ree' Eftekhari", 
+    "Kinga Noémi Balla", 
+    "Lia Joham", 
+    "Malin Lewis", 
+    "Mascha Winkels", 
+    "Sebastian Stipp", 
+    "Seda Acar", 
+    "Steffen Frommberger", 
+    "Alessandro Rütten", 
+    "Alexandre Heitz", 
+    "Damiano Maiolini", 
+    "Debora Vater", 
+    "Diana Babalola", 
+    "Dominik Hartz", 
+    "Felicitas Mayer", 
+    "Jessica Schaffler", 
+    "Johannes Holfeld", 
+    "John Alexander Garner III", 
+    "Judith Jandl", 
+    "Kira Mesterheide", 
+    "Lars Kamphausen", 
+    "Laura Neels", 
+    "Mark Agpas", 
+    "Melissa Muamba", 
+    "Misses Melaza", 
+    "Penni Jo Blatterman", 
+    "Rahel Maas", 
+    "Sinem Uraz"
+  ]
+}

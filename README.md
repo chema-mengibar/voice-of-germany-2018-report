@@ -88,3 +88,14 @@ https://stackoverflow.com/questions/39142778/python-how-to-determine-the-languag
 https://es.wikipedia.org/wiki/ISO_639-1
 
 
+Name detect
+https://thetokenizer.com/2013/08/25/how-to-easily-recognize-peoples-names-in-a-text/
+
+
+JS Loops
+https://stackoverflow.com/questions/14379274/how-to-iterate-over-a-javascript-object
+https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for...of
+--------------
+
+selenium
+vue cli 3

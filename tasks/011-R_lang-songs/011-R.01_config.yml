@@ -1,0 +1,21 @@
+options:
+  increment-version: false
+params:
+  none: empty
+source:
+  source_langs:
+    dir: 011_songs-lang/
+    files:
+    - 011_songs-lang_1.0.json
+    route: master
+  source_quotes:
+    dir: quotes/
+    files:
+    - quotes_half-final.csv
+    - quotes_final.csv
+    route: universe
+target:
+  dir: 011-R_songs-lang/
+  file: 011-R.01_songs-votes_$VERSION$.json
+  route: master
+version: 1.0

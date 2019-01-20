@@ -1,0 +1,110 @@
+[
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "song": "Love Someone", 
+    "candidate_name": "Samuel Rösch", 
+    "quote_semifinal": 47.0, 
+    "relation_semifinal": 40, 
+    "deezer_quote": 8.71
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "Crazy", 
+    "candidate_name": "Diana Babalola", 
+    "quote_semifinal": 16.7, 
+    "relation_semifinal": 64, 
+    "deezer_quote": 8.13
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "Free Your Mind", 
+    "candidate_name": "Bernarda Brunovic", 
+    "quote_semifinal": 33.2, 
+    "relation_semifinal": 13, 
+    "deezer_quote": 4.62
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "Medley: Summer Love / Set the Mood", 
+    "candidate_name": "James Smith Jr.", 
+    "quote_semifinal": 9.6, 
+    "relation_semifinal": 39, 
+    "deezer_quote": 4.86
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "song": "Einmal", 
+    "candidate_name": "Jessica Schaffler", 
+    "quote_semifinal": 56.1, 
+    "relation_semifinal": 12, 
+    "deezer_quote": 6.86
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "Let It Go", 
+    "candidate_name": "Coby Grant", 
+    "quote_semifinal": 31.4, 
+    "relation_semifinal": 41, 
+    "deezer_quote": 7.32
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "Schön genug", 
+    "candidate_name": "Rahel Maas", 
+    "quote_semifinal": 27.2, 
+    "relation_semifinal": 27, 
+    "deezer_quote": 5.43
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "song": "She's Out of My Life", 
+    "candidate_name": "Benjamin Dolic", 
+    "quote_semifinal": 58.5, 
+    "relation_semifinal": -3, 
+    "deezer_quote": 5.52
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "Scars To Your Beautiful", 
+    "candidate_name": "Linda Alkhodor", 
+    "quote_semifinal": 31.6, 
+    "relation_semifinal": 50, 
+    "deezer_quote": 8.25
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "Wrecking Ball", 
+    "candidate_name": "Matthias Nebel", 
+    "quote_semifinal": 19.8, 
+    "relation_semifinal": 67, 
+    "deezer_quote": 8.7
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "song": "Thursday", 
+    "candidate_name": "Eros Atomus Isler", 
+    "quote_semifinal": 37.6, 
+    "relation_semifinal": 50, 
+    "deezer_quote": 8.8
+  }, 
+  {
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "song": "California Love", 
+    "candidate_name": "Clifford Dwenger", 
+    "quote_semifinal": 31.0, 
+    "relation_semifinal": 47, 
+    "deezer_quote": 7.87
+  }
+]

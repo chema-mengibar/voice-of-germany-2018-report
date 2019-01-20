@@ -1,0 +1,12 @@
+options:
+  increment-version: false
+params:
+  none: empty
+source:
+  dir: 006_participant-data/
+  route: universe
+target:
+  dir: 006_all-participants/
+  file: all-participants_$VERSION$.csv
+  route: master
+version: 6.1

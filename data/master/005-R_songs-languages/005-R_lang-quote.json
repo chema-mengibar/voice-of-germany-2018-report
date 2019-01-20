@@ -1,0 +1,26 @@
+[
+  {
+    "lang_key": "de", 
+    "lang_quote": 12.8, 
+    "total_songs": 211, 
+    "num_songs": 27
+  }, 
+  {
+    "lang_key": "en", 
+    "lang_quote": 84.83, 
+    "total_songs": 211, 
+    "num_songs": 179
+  }, 
+  {
+    "lang_key": "es", 
+    "lang_quote": 1.42, 
+    "total_songs": 211, 
+    "num_songs": 3
+  }, 
+  {
+    "lang_key": "it", 
+    "lang_quote": 0.95, 
+    "total_songs": 211, 
+    "num_songs": 2
+  }
+]

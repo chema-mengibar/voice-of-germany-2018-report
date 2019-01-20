@@ -1,0 +1,14 @@
+options:
+  increment-version: false
+version: 1.0
+params:
+  none: empty
+source:
+  dir: 005_songs/
+  file: songs_5.02_manual-modified.csv
+  route: master
+target:
+  dir: 005-R_songs-languages/
+  file: 005-R_$TASK$.json
+  route: master
+description: Return top rated artist

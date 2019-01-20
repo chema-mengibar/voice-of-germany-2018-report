@@ -1,0 +1,289 @@
+[
+  {
+    "lang_counter": [
+      {
+        "_key": "de", 
+        "_value": 2
+      }, 
+      {
+        "_key": "en", 
+        "_value": 5
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "is_finalist": true, 
+    "num_songs": 7, 
+    "candidate_name": "Jessica Schaffler", 
+    "lang_rate": [
+      {
+        "_key": "de", 
+        "_value": 28.57, 
+        "_symbol": "%"
+      }, 
+      {
+        "_key": "en", 
+        "_value": 71.43, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 56.1, 
+    "quote_final": 14.99, 
+    "is_finalist_winner": false
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 7
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "is_finalist": true, 
+    "num_songs": 7, 
+    "candidate_name": "Benjamin Dolic", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 58.5, 
+    "quote_final": 16.6, 
+    "is_finalist_winner": false
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 4
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 4, 
+    "candidate_name": "Diana Babalola", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 16.7
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 4
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 4, 
+    "candidate_name": "James Smith Jr.", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 9.6
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 4
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 4, 
+    "candidate_name": "Matthias Nebel", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 19.8
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 5
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 5, 
+    "candidate_name": "Bernarda Brunovic", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 33.2
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 4
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 4, 
+    "candidate_name": "Coby Grant", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 31.4
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "de", 
+        "_value": 1
+      }, 
+      {
+        "_key": "en", 
+        "_value": 5
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "is_finalist": true, 
+    "num_songs": 6, 
+    "candidate_name": "Eros Atomus Isler", 
+    "lang_rate": [
+      {
+        "_key": "de", 
+        "_value": 16.67, 
+        "_symbol": "%"
+      }, 
+      {
+        "_key": "en", 
+        "_value": 83.33, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 37.6, 
+    "quote_final": 13.5, 
+    "is_finalist_winner": false
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "de", 
+        "_value": 4
+      }, 
+      {
+        "_key": "en", 
+        "_value": 3
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": true, 
+    "is_finalist": true, 
+    "num_songs": 7, 
+    "candidate_name": "Samuel Rösch", 
+    "lang_rate": [
+      {
+        "_key": "de", 
+        "_value": 57.14, 
+        "_symbol": "%"
+      }, 
+      {
+        "_key": "en", 
+        "_value": 42.86, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 47.0, 
+    "quote_final": 54.89, 
+    "is_finalist_winner": true
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "de", 
+        "_value": 4
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 4, 
+    "candidate_name": "Rahel Maas", 
+    "lang_rate": [
+      {
+        "_key": "de", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 27.2
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 4
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 4, 
+    "candidate_name": "Clifford Dwenger", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 31.0
+  }, 
+  {
+    "lang_counter": [
+      {
+        "_key": "en", 
+        "_value": 3
+      }
+    ], 
+    "is_semifinalist": true, 
+    "is_semifinalist_winner": false, 
+    "is_finalist": false, 
+    "num_songs": 3, 
+    "candidate_name": "Linda Alkhodor", 
+    "lang_rate": [
+      {
+        "_key": "en", 
+        "_value": 100.0, 
+        "_symbol": "%"
+      }
+    ], 
+    "quote_semifinal": 31.6
+  }
+]
