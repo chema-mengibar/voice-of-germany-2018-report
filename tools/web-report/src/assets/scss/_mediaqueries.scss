@@ -1,0 +1,42 @@
+$tablet-min-width: 350px;
+$tablet-width: 768px;
+$desktop-width: 860px;
+
+@mixin min_tablet {
+  @media (min-width: #{$tablet-min-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media ( min-width: #{$tablet-width} ) {
+    @content;
+  }
+}
+
+@mixin tablet_strict {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+/* EXAMPLE:
+
+p {
+  font-size: 16px;
+
+  @include tablet {
+    font-size: 18px;
+  }
+
+  @include desktop {
+    font-size: 20px;
+  }
+}
+*/

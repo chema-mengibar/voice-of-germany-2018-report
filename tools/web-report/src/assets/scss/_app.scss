@@ -1,0 +1,39 @@
+
+$body--background-color: $theme_dark;
+
+// html, body { height: 100% }
+body {
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-size: cover;
+  background-color: $body--background-color;
+  font-family: $font-n, sans-serif;
+}
+
+/*  _app.css */
+//##{$bodyFormId},
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box !important;
+  -webkit-box-sizing:border-box !important;
+  -moz-box-sizing:border-box !important;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  -o-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+
+
+
+.deco-header{
+  width:350px;
+  height:150px;
+  background-color: $carmin;
+  right:20px;
+  position: absolute;
+  bottom: 0px;
+}

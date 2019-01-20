@@ -1,0 +1,58 @@
+// @font-face {
+//   font-family: 'Open Sans', sans-serif;
+//   src : url( '~@/assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype')
+// }
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+$text--color: $white;
+
+h1,h2,h3,h4,h5,h6,p,span,div{
+  color: $text--color;
+  font-family : 'Open Sans';
+}
+
+h1{
+  font-weight : bold;
+  font-size : 44px;
+  letter-spacing : 1.58px;
+  line-height:42px;
+
+  margin-bottom:30px;
+  // @include tablet {
+  //   font-size : 49px;
+  // }
+}
+
+h2{
+  font-weight : bold;
+  font-size : 40px;
+  letter-spacing : 1.44px;
+  line-height:42px;
+
+  // @include tablet {
+  //   font-size : 49px;
+  // }
+}
+
+h4{
+  font-size : 18px;
+  letter-spacing : 1.58px;
+  line-height:22px;
+  margin-bottom:15px;
+  // @include tablet {
+  //   font-size : 49px;
+  // }
+}
+
+
+div{
+  font-size : 12px;
+  line-height : 20px;
+}
+
+p{
+  max-width:500px;
+}
+

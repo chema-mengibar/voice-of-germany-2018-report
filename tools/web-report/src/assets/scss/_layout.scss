@@ -1,0 +1,114 @@
+
+$block--background-color: transparent;
+
+body{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+//FLEX: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+.container{
+  background-color: $theme_dark ;
+  display:flex;
+  flex-direction: column;
+  width: $tablet-min-width;
+
+  @include tablet {
+    width: $tablet-width;
+  }
+  @include desktop {
+    width: $desktop-width;
+  }
+}
+
+$block-size: 250px;
+
+.row{
+
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column;
+  margin:20px 0;
+  flex-shrink: 0;
+  position: relative;
+
+  @include tablet {
+    flex-direction: row;
+  }
+
+  &__1a1{
+    .block{
+      flex: 1 1 50%;
+    }
+  }
+
+  &__2a1{
+    .block{
+      &:first-child {
+        flex-grow:2;
+      }
+      &:last-child {
+        @include tablet {
+          max-width:$block-size;
+          min-width:$block-size;
+        }
+      }
+    }
+  }
+
+  &__1a2{
+    .block{
+      &:first-child{
+        @include tablet {
+          max-width:$block-size;
+          min-width:$block-size;
+        }
+      }
+      &:last-child{
+        flex-grow:2;
+      }
+    }
+  }
+
+  &__1a1a1{
+    .block{
+      flex: 1 1;
+    }
+  }
+
+  &--underlined{
+    border-bottom:1px solid $white;
+  }
+
+  .block{
+    margin: 0;
+    background-color:$block--background-color;
+    padding:10px;
+
+    @include tablet {
+      margin: 0 5px;
+    }
+
+    &:first-child {
+      margin-left:0;
+    }
+    &:last-child {
+      margin-right:0;
+    }
+  }
+
+  &.row__text--centered{
+    text-align: center;
+  
+    .block{
+      margin:0 auto;
+    }
+  }
+
+}
+

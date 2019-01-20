@@ -1,0 +1,106 @@
+html, body{
+  height:100%;
+}
+
+.app{
+  background-color: #ddd;
+  height:100%;
+}
+
+
+.app__row {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top:40px;
+}
+
+.app__col__salutation{
+  margin-bottom:10px;
+}
+
+.app__col{
+  margin-bottom: 3px;
+  border-radius: 5px;
+  min-height: 100px;
+  padding: 10px;
+  margin-bottom:10px;
+}
+
+.col__button{
+  padding-top:40px;
+}
+
+.blank{
+  background-color: white;
+ 
+}
+
+.p__salutation{
+  color: #fff;
+  font-size: 19px;
+}
+
+.p__title{
+  color: #666;
+  font-size: 19px;
+}
+
+.p__text{
+  color: #666;
+  font-size: 19px;
+}
+
+.app__button {
+
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  border: 5px solid rgba(255,255,255,0);
+  -webkit-border-radius: 29px;
+  border-radius: 15px;
+  font-size:17px;
+  color: #ffffff;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: #666;
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+
+.app__button:hover {
+  //background: rgb(30, 205, 151);
+}
+
+.app__button:active {
+  border: 2px solid white;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+
+input{
+  border:none;
+  border-bottom:1px solid #c6c6c6;
+  width:100%;
+  color: #A5A5A5;
+  font-size: 19px;
+
+}
+
+select{
+  width: 100%;
+  padding: 4px;
+  border-bottom: 1px solid #ccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  color: #999;
+  font-size: 20px;
+}

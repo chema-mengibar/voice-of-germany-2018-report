@@ -1,0 +1,76 @@
+// @mixin container($ancho, $alto, $color) {
+//     width: $ancho;
+//     height: $alto;
+//     background-color: $color;
+//     border-radius: 5%;
+//     text-align: center;
+//     margin: 5px;
+//   } // @include container(200px, 100px, #33D374)
+
+// @mixin transitions($ancho, $alto, $color) {
+// -webkit-transition: background-color linear .8s;
+// -moz-transition: background-color linear .8s;
+// -o-transition: background-color linear .8s;
+// /* -ms- prefix removed! */
+// transition: background-color linear .8s;
+// } // @include transition( height 1s .5s, color 2s);
+
+@mixin transition_mix( $transition ) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+
+@mixin transition-property($property...) {
+  -moz-transition-property:    $property;
+  -o-transition-property:      $property;
+  -webkit-transition-property: $property;
+  transition-property:         $property;
+}
+
+@mixin transition-duration($duration...) {
+  -moz-transition-property:    $duration;
+  -o-transition-property:      $duration;
+  -webkit-transition-property: $duration;
+  transition-property:         $duration;
+}
+
+@mixin transition-timing-function($timing...) {
+  -moz-transition-timing-function:    $timing;
+  -o-transition-timing-function:      $timing;
+  -webkit-transition-timing-function: $timing;
+  transition-timing-function:         $timing;
+}
+
+@mixin transition-delay($delay...) {
+  -moz-transition-delay:    $delay;
+  -o-transition-delay:      $delay;
+  -webkit-transition-delay: $delay;
+  transition-delay:         $delay;
+}
+
+@mixin border-radius( $rad ){
+  border-radius : $rad;
+  -moz-border-radius: $rad;
+  -webkit-border-radius: $rad;
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model;
+  -moz-box-sizing: $box-model; 
+  box-sizing: $box-model;
+}// @include box-sizing(border-box);
+
+@mixin box-shadow($param, $inset: false) {
+  //$top $left $blur $color
+  @if $inset {
+    -webkit-box-shadow:inset $param;
+    -moz-box-shadow:inset $param;
+    box-shadow:inset $param;
+  } @else {
+    -webkit-box-shadow: $param;
+    -moz-box-shadow: $param;
+    box-shadow: $param;
+  }
+}// @include box-shadow( 0 0 0 rgba() );

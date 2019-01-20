@@ -5,6 +5,7 @@
 
 project/
 
-tools/
 
 data/secret/
+
+tools/werb-report-server/\.htaccess
