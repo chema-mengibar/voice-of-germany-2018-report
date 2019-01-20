@@ -1,0 +1,237 @@
+{
+  "coaches_keys": [
+    "Michael Patrick", 
+    "Yvonne", 
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "show-type": "half-final", 
+  "songs_deezer_quotes": {
+    "max": 9.85, 
+    "min": 1.64
+  }, 
+  "auditions_candidates": 12, 
+  "candidates_data": [
+    {
+      "song_genre": "", 
+      "song_lang": "en", 
+      "song_title": "Free Your Mind", 
+      "coach_name": "Michael Patrick", 
+      "song_year": 1992, 
+      "participant_age": 25, 
+      "song_deezer-quote": 4.62, 
+      "participant_gender": "female", 
+      "buzzer_coaches_names": [
+        "Michael Patrick", 
+        "Michi & Smudo", 
+        "Yvonne", 
+        "Mark"
+      ], 
+      "buzzer_count": 4, 
+      "participant_name": "Bernarda Brunovic", 
+      "song_artist": "En Vogue"
+    }, 
+    {
+      "song_genre": "Pop", 
+      "song_lang": "en", 
+      "song_title": "Wrecking Ball", 
+      "coach_name": "Michael Patrick", 
+      "song_year": 2013, 
+      "participant_age": 27, 
+      "song_deezer-quote": 8.7, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Michael Patrick", 
+        "Michi & Smudo", 
+        "Yvonne", 
+        "Mark"
+      ], 
+      "buzzer_count": 4, 
+      "participant_name": "Matthias Nebel", 
+      "song_artist": "Miley Cyrus"
+    }, 
+    {
+      "song_genre": "Pop", 
+      "song_lang": "de", 
+      "song_title": "Der Weg", 
+      "coach_name": "Michael Patrick", 
+      "song_year": 2002, 
+      "participant_age": 24, 
+      "song_deezer-quote": 5.48, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Michael Patrick", 
+        "Michi & Smudo"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Samuel Rösch", 
+      "song_artist": "Herbert Grönemeyer"
+    }, 
+    {
+      "song_genre": "", 
+      "song_lang": "en", 
+      "song_title": "California Love", 
+      "coach_name": "Michi & Smudo", 
+      "song_year": 1996, 
+      "participant_age": 25, 
+      "song_deezer-quote": 7.87, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Michael Patrick", 
+        "Michi & Smudo", 
+        "Yvonne", 
+        "Mark"
+      ], 
+      "buzzer_count": 4, 
+      "participant_name": "Clifford Dwenger", 
+      "song_artist": "2Pac, Roger Troutman, Dr. Dre"
+    }, 
+    {
+      "song_genre": "Singer-Songwriter, Alternative/Indie, Rock", 
+      "song_lang": "en", 
+      "song_title": "Let It Go", 
+      "coach_name": "Michi & Smudo", 
+      "song_year": 2015, 
+      "participant_age": 32, 
+      "song_deezer-quote": 7.32, 
+      "participant_gender": "female", 
+      "buzzer_coaches_names": [
+        "Michael Patrick", 
+        "Michi & Smudo", 
+        "Yvonne", 
+        "Mark"
+      ], 
+      "buzzer_count": 4, 
+      "participant_name": "Coby Grant", 
+      "song_artist": "James Bay"
+    }, 
+    {
+      "song_genre": "Singer-Songwriter", 
+      "song_lang": "en", 
+      "song_title": "Another Love", 
+      "coach_name": "Michi & Smudo", 
+      "song_year": 2013, 
+      "participant_age": 18, 
+      "song_deezer-quote": 7.54, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Michi & Smudo", 
+        "Mark"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Eros Atomus Isler", 
+      "song_artist": "Tom Odell"
+    }, 
+    {
+      "song_genre": "", 
+      "song_lang": "en", 
+      "song_title": "Can't Help Falling In Love", 
+      "coach_name": "Yvonne", 
+      "song_year": 1969, 
+      "participant_age": 21, 
+      "song_deezer-quote": 6.53, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Mark", 
+        "Yvonne"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Benjamin Dolic", 
+      "song_artist": "Elvis Presley"
+    }, 
+    {
+      "song_genre": "", 
+      "song_lang": "en", 
+      "song_title": "Summer Love", 
+      "coach_name": "Yvonne", 
+      "song_year": 0, 
+      "participant_age": 16, 
+      "song_deezer-quote": 4.86, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Michael Patrick", 
+        "Yvonne", 
+        "Mark"
+      ], 
+      "buzzer_count": 3, 
+      "participant_name": "James Smith Jr.", 
+      "song_artist": "Justin Timberlake"
+    }, 
+    {
+      "song_genre": "Zeitgenössischer R&B", 
+      "song_lang": "en", 
+      "song_title": "Scars To Your Beautiful", 
+      "coach_name": "Yvonne", 
+      "song_year": 2015, 
+      "participant_age": 16, 
+      "song_deezer-quote": 8.25, 
+      "participant_gender": "female", 
+      "buzzer_coaches_names": [
+        "Yvonne", 
+        "Mark"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Linda Alkhodor", 
+      "song_artist": "Alessia Cara"
+    }, 
+    {
+      "song_genre": "Rock, Pop", 
+      "song_lang": "en", 
+      "song_title": "Crazy", 
+      "coach_name": "Mark", 
+      "song_year": 1993, 
+      "participant_age": 26, 
+      "song_deezer-quote": 8.13, 
+      "participant_gender": "female", 
+      "buzzer_coaches_names": [
+        "Mark", 
+        "Michi & Smudo"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Diana Babalola", 
+      "song_artist": "Aerosmith"
+    }, 
+    {
+      "song_genre": "Pop-Rock, Pop", 
+      "song_lang": "en", 
+      "song_title": "Head Above Water", 
+      "coach_name": "Mark", 
+      "song_year": 2019, 
+      "participant_age": 17, 
+      "song_deezer-quote": 8.63, 
+      "participant_gender": "female", 
+      "buzzer_coaches_names": [
+        "Mark", 
+        "Michi & Smudo"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Jessica Schaffler", 
+      "song_artist": "Avril Lavigne"
+    }, 
+    {
+      "song_genre": "Pop", 
+      "song_lang": "de", 
+      "song_title": "Schön Genug", 
+      "coach_name": "Mark", 
+      "song_year": 2016, 
+      "participant_age": "23", 
+      "song_deezer-quote": 5.43, 
+      "participant_gender": "female", 
+      "buzzer_coaches_names": [
+        "Michi & Smudo", 
+        "Mark"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Rahel Maas", 
+      "song_artist": "Lina Maly"
+    }
+  ], 
+  "languages_keys": [
+    "en", 
+    "de"
+  ], 
+  "songs_years": {
+    "max": 2019, 
+    "min": 1963
+  }
+}

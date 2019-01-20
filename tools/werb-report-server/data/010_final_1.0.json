@@ -1,0 +1,172 @@
+{
+  "coaches_keys": [
+    "Michael Patrick", 
+    "Yvonne", 
+    "Michi & Smudo", 
+    "Mark"
+  ], 
+  "show-type": "half-final", 
+  "songs_deezer_quotes": {
+    "max": 9.85, 
+    "min": 1.64
+  }, 
+  "auditions_candidates": 4, 
+  "candidates_data": [
+    {
+      "coach_name": "Mark", 
+      "participant_age": 17, 
+      "participant_gender": "female", 
+      "buzzer_coaches_names": [
+        "Mark", 
+        "Michi & Smudo"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Jessica Schaffler", 
+      "songs": [
+        {
+          "song_lang": "en", 
+          "song_genre": "Singer-Songwriter", 
+          "song_year": 2018, 
+          "song_title": "Half As Good As You", 
+          "song_deezer-quote": 6.15, 
+          "song_artist": "Tom Odell, Alice Merton"
+        }, 
+        {
+          "song_lang": "en", 
+          "song_genre": "Pop", 
+          "song_year": 2017, 
+          "song_title": "A Million Dreams", 
+          "song_deezer-quote": 9.42, 
+          "song_artist": "P!nk"
+        }, 
+        {
+          "song_lang": "de", 
+          "song_genre": "Pop", 
+          "song_year": 2018, 
+          "song_title": "Einmal", 
+          "song_deezer-quote": 6.86, 
+          "song_artist": "Mark Forster"
+        }
+      ]
+    }, 
+    {
+      "coach_name": "Michael Patrick", 
+      "participant_age": 24, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Michael Patrick", 
+        "Michi & Smudo"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Samuel Rösch", 
+      "songs": [
+        {
+          "song_lang": "de", 
+          "song_genre": "Jazz", 
+          "song_year": 0, 
+          "song_title": "In Diesem Moment", 
+          "song_deezer-quote": 5.65, 
+          "song_artist": "Roger Cicero"
+        }, 
+        {
+          "song_lang": "de", 
+          "song_genre": "", 
+          "song_year": 2014, 
+          "song_title": "Auf Uns", 
+          "song_deezer-quote": 6.07, 
+          "song_artist": "Andreas Bourani"
+        }, 
+        {
+          "song_lang": "en", 
+          "song_genre": "Pop", 
+          "song_year": 2018, 
+          "song_title": "Love Someone", 
+          "song_deezer-quote": 8.71, 
+          "song_artist": "Lukas Graham"
+        }
+      ]
+    }, 
+    {
+      "coach_name": "Michi & Smudo", 
+      "participant_age": 18, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Michi & Smudo", 
+        "Mark"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Eros Atomus Isler", 
+      "songs": [
+        {
+          "song_lang": "de", 
+          "song_genre": "Pop", 
+          "song_year": 2018, 
+          "song_title": "Zusammen", 
+          "song_deezer-quote": 7.56, 
+          "song_artist": "Die Fantastischen Vier, Clueso"
+        }, 
+        {
+          "song_lang": "en", 
+          "song_genre": "Jazz", 
+          "song_year": 0, 
+          "song_title": "Fly Me To The Moon", 
+          "song_deezer-quote": 5.28, 
+          "song_artist": "Frank Sinatra, Count Basie and his Orchestra"
+        }, 
+        {
+          "song_lang": "en", 
+          "song_genre": "Pop", 
+          "song_year": 2018, 
+          "song_title": "Thursday", 
+          "song_deezer-quote": 8.8, 
+          "song_artist": "Jess Glynne"
+        }
+      ]
+    }, 
+    {
+      "coach_name": "Yvonne", 
+      "participant_age": 21, 
+      "participant_gender": "male", 
+      "buzzer_coaches_names": [
+        "Mark", 
+        "Yvonne"
+      ], 
+      "buzzer_count": 2, 
+      "participant_name": "Benjamin Dolic", 
+      "songs": [
+        {
+          "song_lang": "en", 
+          "song_genre": "Alternative/Indie", 
+          "song_year": 1993, 
+          "song_title": "Creep", 
+          "song_deezer-quote": 6.64, 
+          "song_artist": "Radiohead"
+        }, 
+        {
+          "song_lang": "en", 
+          "song_genre": "Pop", 
+          "song_year": 2018, 
+          "song_title": "Ruin", 
+          "song_deezer-quote": 9.7, 
+          "song_artist": "Zara Larsson"
+        }, 
+        {
+          "song_lang": "en", 
+          "song_genre": "Pop", 
+          "song_year": 1979, 
+          "song_title": "She's Out Of My Life", 
+          "song_deezer-quote": 5.52, 
+          "song_artist": "Michael Jackson"
+        }
+      ]
+    }
+  ], 
+  "languages_keys": [
+    "en", 
+    "de"
+  ], 
+  "songs_years": {
+    "max": 2019, 
+    "min": 1963
+  }
+}

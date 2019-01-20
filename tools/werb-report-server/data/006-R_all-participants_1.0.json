@@ -1,0 +1,818 @@
+[
+  {
+    "gender": "male", 
+    "age": 19, 
+    "name": "Abdullah Azad", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Yvonne", 
+      "Mark", 
+      "Michael Patrick", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 22, 
+    "name": "Alessandro R\u00fctten", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Yvonne", 
+      "Michael Patrick", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 19, 
+    "name": "Alexander Eder", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 21, 
+    "name": "Alexandre Heitz", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 23, 
+    "name": "Amanda Lena Jakucs", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Yvonne", 
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 25, 
+    "name": "Andreas Hauser", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 21, 
+    "name": "Benjamin Dolic", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 25, 
+    "name": "Bernarda Brunovic", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 22, 
+    "name": "Cem K\u00fcc\u00fck", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 54, 
+    "name": "Chantal Dorn", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Yvonne", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 25, 
+    "name": "Clifford Dwenger", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 32, 
+    "name": "Coby Grant", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 27, 
+    "name": "Damiano Maiolini", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Michael Patrick"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 32, 
+    "name": "Debora Vater", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 26, 
+    "name": "Diana Babalola", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 20, 
+    "name": "Dominik Hartz", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 18, 
+    "name": "Doriane Kamdem Mabou", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 18, 
+    "name": "Eros Atomus Isler", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 23, 
+    "name": "Eun Chae Rhee", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 30, 
+    "name": "Fabian Riaz", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 26, 
+    "name": "Fabrice Richter-Reichhelm", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 54, 
+    "name": "Felicia Peters", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 20, 
+    "name": "Felicitas Mayer", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 42, 
+    "name": "Flavio Baltermia", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 17, 
+    "name": "Florian Alexander Kurz", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Michi & Smudo", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 27, 
+    "name": "Gaby Schwager", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 25, 
+    "name": "Giuliano De Stefano", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 48, 
+    "name": "Guido Goh", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 19, 
+    "name": "Hugo Gonzalez Morales", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 29, 
+    "name": "Igor Quennehen", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 16, 
+    "name": "James Smith Jr.", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 18, 
+    "name": "Jeanie Celina Schulthei\u00df", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 17, 
+    "name": "Jessica Schaffler", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 37, 
+    "name": "Johannes Holfeld", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 34, 
+    "name": "John Alexander Garner III", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 27, 
+    "name": "Judith Jandl", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 19, 
+    "name": "Juliane G\u00f6tz", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 39, 
+    "name": "J\u00e9lila Bouraoui", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 30, 
+    "name": "Karina Kl\u00fcber", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 39, 
+    "name": "Kathrin 'Kaye-Ree' Eftekhari", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 24, 
+    "name": "Kinga No\u00e9mi Balla", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 23, 
+    "name": "Kira Mesterheide", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 19, 
+    "name": "Lars Kamphausen", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 32, 
+    "name": "Laura Neels", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 16, 
+    "name": "Lena Rotermund", 
+    "buzzer_count": 1, 
+    "buzzer_coaches": [
+      "Michael Patrick"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 21, 
+    "name": "Lia Joham", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 27, 
+    "name": "Liam Blaney", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 16, 
+    "name": "Linda Alkhodor", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 58, 
+    "name": "Ludmila Larusso", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 23, 
+    "name": "Luka Nozza", 
+    "buzzer_count": 1, 
+    "buzzer_coaches": [
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 25, 
+    "name": "Malin Lewis", 
+    "buzzer_count": 1, 
+    "buzzer_coaches": [
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 21, 
+    "name": "Maria Pasqua Casti", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 28, 
+    "name": "Mario Geckeler", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 38, 
+    "name": "Mark Agpas", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 28, 
+    "name": "Mascha Winkels", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 27, 
+    "name": "Matthias Nebel", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 19, 
+    "name": "Mattis Laustroer", 
+    "buzzer_count": 1, 
+    "buzzer_coaches": [
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 25, 
+    "name": "Melissa Muamba", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": "29, 34 UND 44", 
+    "name": "Misses Melaza", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 52, 
+    "name": "Monica Lewis-Schmidt", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 31, 
+    "name": "Nora Brandenburger", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 21, 
+    "name": "Patrice Gerlach", 
+    "buzzer_count": 3, 
+    "buzzer_coaches": [
+      "Mark", 
+      "Michi & Smudo", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": "45", 
+    "name": "Penni Jo Blatterman", 
+    "buzzer_count": 1, 
+    "buzzer_coaches": [
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 22, 
+    "name": "Philipp von Unold", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": "23", 
+    "name": "Rahel Maas", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 24, 
+    "name": "Samuel R\u00f6sch", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 24, 
+    "name": "Samuele Di Dio", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 32, 
+    "name": "Sascha Coles", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 33, 
+    "name": "Sebastian Stipp", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 23, 
+    "name": "Seda Acar", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michi & Smudo", 
+      "Yvonne"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 27, 
+    "name": "Shireen Nikolic", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": "18", 
+    "name": "Sinem Uraz", 
+    "buzzer_count": 4, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Michi & Smudo", 
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 24, 
+    "name": "Stefan Celar", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Yvonne", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "male", 
+    "age": 36, 
+    "name": "Steffen Frommberger", 
+    "buzzer_count": 1, 
+    "buzzer_coaches": [
+      "Michi & Smudo"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 31, 
+    "name": "S\u00fcmeyra Stahl", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }, 
+  {
+    "gender": "female", 
+    "age": 35, 
+    "name": "Taylor Shore", 
+    "buzzer_count": 2, 
+    "buzzer_coaches": [
+      "Michael Patrick", 
+      "Mark"
+    ]
+  }
+]

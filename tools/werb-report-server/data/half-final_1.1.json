@@ -1,0 +1,142 @@
+{
+  "start": {
+    "Michael Patrick": {
+      "participants": [
+        {
+          "name": "Bernarda Brunovic", 
+          "likes": 8539
+        }, 
+        {
+          "name": "Matthias Nebel", 
+          "likes": 50070
+        }, 
+        {
+          "name": "Samuel R\u00f6sch", 
+          "likes": 11792
+        }
+      ], 
+      "time": "19:13"
+    }, 
+    "Yvonne": {
+      "participants": [
+        {
+          "name": "Benjamin Dolic", 
+          "likes": 84894
+        }, 
+        {
+          "name": "James Smith Jr.", 
+          "likes": 3441
+        }, 
+        {
+          "name": "Linda Alkhodor", 
+          "likes": 3771
+        }
+      ], 
+      "time": "19:13"
+    }, 
+    "Michi & Smudo": {
+      "participants": [
+        {
+          "name": "Clifford Dwenger", 
+          "likes": 4553
+        }, 
+        {
+          "name": "Coby Grant", 
+          "likes": 78218
+        }, 
+        {
+          "name": "Eros Atomus Isler", 
+          "likes": 11100
+        }
+      ], 
+      "time": "19:13"
+    }, 
+    "Mark": {
+      "participants": [
+        {
+          "name": "Diana Babalola", 
+          "likes": 2828
+        }, 
+        {
+          "name": "Jessica Schaffler", 
+          "likes": 16106
+        }, 
+        {
+          "name": "Rahel Maas", 
+          "likes": 4364
+        }
+      ], 
+      "time": "19:13"
+    }
+  }, 
+  "end": {
+    "Michael Patrick": {
+      "participants": [
+        {
+          "name": "Bernarda Brunovic", 
+          "likes": 12622
+        }, 
+        {
+          "name": "Matthias Nebel", 
+          "likes": 54926
+        }, 
+        {
+          "name": "Samuel R\u00f6sch", 
+          "likes": 12254
+        }
+      ], 
+      "time": "23:39"
+    }, 
+    "Yvonne": {
+      "participants": [
+        {
+          "name": "Benjamin Dolic", 
+          "likes": 85912
+        }, 
+        {
+          "name": "James Smith Jr.", 
+          "likes": 3655
+        }, 
+        {
+          "name": "Linda Alkhodor", 
+          "likes": 4105
+        }
+      ], 
+      "time": "23:39"
+    }, 
+    "Michi & Smudo": {
+      "participants": [
+        {
+          "name": "Clifford Dwenger", 
+          "likes": 4789
+        }, 
+        {
+          "name": "Coby Grant", 
+          "likes": 88574
+        }, 
+        {
+          "name": "Eros Atomus Isler", 
+          "likes": 11668
+        }
+      ], 
+      "time": "23:39"
+    }, 
+    "Mark": {
+      "participants": [
+        {
+          "name": "Diana Babalola", 
+          "likes": 2976
+        }, 
+        {
+          "name": "Jessica Schaffler", 
+          "likes": 18291
+        }, 
+        {
+          "name": "Rahel Maas", 
+          "likes": 4577
+        }
+      ], 
+      "time": "23:39"
+    }
+  }
+}
