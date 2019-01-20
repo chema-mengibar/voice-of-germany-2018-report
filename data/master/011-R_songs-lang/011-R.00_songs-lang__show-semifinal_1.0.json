@@ -121,13 +121,13 @@
     "lang_counter": [
       {
         "_key": "en", 
-        "_value": 5
+        "_value": 4
       }
     ], 
     "is_semifinalist": true, 
     "is_semifinalist_winner": false, 
     "is_finalist": false, 
-    "num_songs": 5, 
+    "num_songs": 4, 
     "candidate_name": "Bernarda Brunovic", 
     "lang_rate": [
       {
@@ -163,13 +163,13 @@
     "lang_counter": [
       {
         "_key": "en", 
-        "_value": 3
+        "_value": 4
       }
     ], 
     "is_semifinalist": true, 
     "is_semifinalist_winner": true, 
     "is_finalist": true, 
-    "num_songs": 3, 
+    "num_songs": 4, 
     "candidate_name": "Eros Atomus Isler", 
     "lang_rate": [
       {
@@ -260,13 +260,13 @@
     "lang_counter": [
       {
         "_key": "en", 
-        "_value": 3
+        "_value": 4
       }
     ], 
     "is_semifinalist": true, 
     "is_semifinalist_winner": false, 
     "is_finalist": false, 
-    "num_songs": 3, 
+    "num_songs": 4, 
     "candidate_name": "Linda Alkhodor", 
     "lang_rate": [
       {

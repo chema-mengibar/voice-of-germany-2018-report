@@ -74,10 +74,10 @@ export default {
       let scaleYFct =  d3.scaleLinear().domain( [0, 100] ).range( [0, sc.canvasHeight] );
       let scaleYpxFct =  d3.scaleLinear().domain( [sc.canvasHeight, 0] ).range( [0, sc.canvasHeight] );
       let customPalette = [
-        dataTools.customColorByName('ocre'),
-        dataTools.customColorByName('pistacho'),
-        dataTools.customColorByName('anyil'),
         dataTools.customColorByName('electrico'),
+        dataTools.customColorByName('lila'),
+        dataTools.customColorByName('carmin'),
+        dataTools.customColorByName('menta'),
       ]
 
       let gBars = svg.append('g').attr('class','bars');

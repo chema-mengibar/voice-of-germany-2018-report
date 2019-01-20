@@ -75,7 +75,7 @@ export default {
       let box = d3.select( '#widget_' + _this.pId );
       _this.svg = box.select('svg');
       _this.svgSettings.width = box.node().getBoundingClientRect().width;
-      _this.svgSettings.height = 100; // box.node().getBoundingClientRect().height;
+      _this.svgSettings.height = 90; // box.node().getBoundingClientRect().height;
 
       dataTools.getData(  _this.aSource  )
         .then( (responseData )=> _this.pData = responseData );  

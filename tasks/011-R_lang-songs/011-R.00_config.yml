@@ -2,7 +2,7 @@ options:
   increment-version: false
 params:
   include_final:
-    options: true,false
+    options: true,false or yes/no
     value: true
 source:
   source_langs:

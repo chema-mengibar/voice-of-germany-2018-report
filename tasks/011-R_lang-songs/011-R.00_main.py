@@ -61,6 +61,7 @@ for name in names:
   songsByCandidate[ strToKey(name) ] = {
     'langs':[],
     'name': name,
+    'shows':[],
     'is_finalist':False, 
     'is_semifinalist':False
   } 
@@ -73,12 +74,24 @@ for performance in performances:
   performerKey = strToKey(performer)
   langPerformance = performance['song_infos']['lang']
   #com: get languages just for buzzered candidates: more perfomnaces (blinds, etc..) than buzzered candidates
-  #com: Karnaugh approach to append candidate infos ->  y = AC' + AB
+  '''
+  #com: Karnaugh approach to decided if append candidate-infos or not, to the list -> y = AC' + AB
+  |A|B|C|y|
+  |0|-|-|0|
+  |1|0|0|1|
+  |1|0|1|0|
+  |1|1|0|1|
+  |1|1|1|1|
+  '''
   A = performerKey in songsByCandidate
   B = CONFIG_INCLUDE_FINAL
   C = performance['show'] == 'final'
-  if A and not C or A and B :
-    songsByCandidate[ performerKey ]['langs'].append( langPerformance )
+  if (A and not C or A and B):
+    #com: avoid multiple duplicate entries of songs by show-type, but not for the final.
+    # Each participants sings 3 songs in the final.
+    if (performance['show'] not in songsByCandidate[ performerKey ]['shows'] or performance['show'] == 'final'):
+      songsByCandidate[ performerKey ]['langs'].append( langPerformance )
+      songsByCandidate[ performerKey ]['shows'].append( performance['show'] ) # E condition
 
   if performance['show'] == 'half-final':
     songsByCandidate[ performerKey ]['is_semifinalist'] = True
@@ -136,7 +149,7 @@ for candidateName in songsByCandidate.keys():
     candidateBuffer['is_finalist_winner'] = isWinner
     candidateBuffer['quote_final'] = round( float(df_quotesFinal.loc[ df_quotesFinal.participant == realName.encode('utf-8') ]['rate_procent'].values[0]),2)
 
-  if candidateBuffer:
+  if candidateBuffer and ( ( CONFIG_INCLUDE_FINAL and candidateBuffer['is_finalist'] ) or not CONFIG_INCLUDE_FINAL ):
     taskDataList.append( candidateBuffer )
 
 

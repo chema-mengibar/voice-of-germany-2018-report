@@ -6,6 +6,7 @@
 
 import * as d3 from 'd3';
 import dataTools from '@/lib/dataTools.js';
+import legendTools from '@/lib/legendTools.js';
 
 //
 export default {
@@ -141,58 +142,42 @@ export default {
           .y(function(d) { return d['y']; });
         let path = svg.append('path')
           .attr('d', line( _participantLikes ))
-          .attr( 'stroke', ( ) => dataTools.customColorByName( _params.color ) );
+          .attr( 'stroke', ( ) => {
+            return _params.color
+          });
       }
 
 
-      function appendLegends( _legendData ){
-       
-        let gLegend = svg.append('g').attr('class','legend');
-        
-        let legendTop = 15;
-        let legendLeft = margins[3];
-        let legendItemWidth = 120;
-        let legendItemHeight = 25;
 
-        let cursorX = margins[3] + legendLeft;
-
-        gLegend
-          .selectAll("text").data( _legendData ).enter().append('text')
-          .style("font-size","10px")
-          .attr("y", (d, i)=>( legendTop + ( legendItemHeight * i) + 'px') )
-          .attr("x", ()=> legendLeft + 10 + 'px' )
-          .text(function(d) { return d.key; })
-        
-        cursorX = margins[3] + legendLeft;
-        gLegend
-          .selectAll("circle").data( _legendData ).enter().append('circle')
-          .attr("cy", (d,i)=>( legendTop - 2 + ( legendItemHeight * i) + 'px')  )
-          .attr("cx", ()=> legendLeft )
-          .attr("r","5px")
-          .style("fill", (d)=> dataTools.customColorByName( d.color) )  
-      }
-
+      var customPalette = [
+        dataTools.customColorByName("naranja"),
+        dataTools.customColorByName("lila"),
+        dataTools.customColorByName("anyil"),
+        dataTools.customColorByName("carmin"),
+      ];
+      
       let legendData =  [
-        {key:"Benjamin Dolic", color:"naranja"},
-        {key:"Eros Atomus Isler", color:"anyil"},
-        {key:"Samuel R\u00f6sch", color:"limon"},
-        {key:"Jessica Schaffler", color:"menta"},
+        {key:"Benjamin Dolic", color: customPalette[2] },
+        {key:"Eros Atomus Isler", color:customPalette[3] },
+        {key:"Samuel R\u00f6sch", color: customPalette[0] },
+        {key:"Jessica Schaffler", color: customPalette[1] },
       ];
 
-      appendLegends( legendData );
-      
+      // sc.iH = sc.canvasHeight;
+      // legendTools.vertical( legendData, sc, svg, margins, { legendTop: 25, legendLeft: margins[3] } );
+           
       
       let data01 = getParticipantData( 'Eros Atomus Isler' );
-      appendParticipantLine( data01, { color: 'anyil' } );
+      appendParticipantLine( data01, legendData[1] );
       
       let data02 = getParticipantData( 'Benjamin Dolic' );
-      appendParticipantLine( data02, { color: 'naranja' } );
+      appendParticipantLine( data02, legendData[0] );
       
       let data03 = getParticipantData( 'Jessica Schaffler' );
-      appendParticipantLine( data03, { color: 'menta' } );
+      appendParticipantLine( data03, legendData[3] );
       
       let data04 = getParticipantData( 'Samuel R\u00f6sch' );
-      appendParticipantLine( data04, { color: 'limon' } );
+      appendParticipantLine( data04, legendData[2] );
 
 
       var x_axis = d3.axisBottom().scale(scaleXFct).tickFormat((d, i) =>  mainDates[d].substring(5) )
@@ -205,9 +190,7 @@ export default {
       svg.append("g").attr("class", "timeline__axis timeline__axis__y")
         .attr("transform", "translate("+ ( sc.width - margins[1] ) + ",0)")
         .call( y_axis )  
-        // .selectAll("text").attr("y", 0).attr("x", 9).attr("dy", ".35em")
-        //   .attr("transform", "rotate(45)").style("text-anchor", "start");;
- 
+
 
     }
   }

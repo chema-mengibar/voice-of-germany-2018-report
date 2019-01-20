@@ -33,7 +33,7 @@ $block-size: 250px;
   overflow:hidden;
   display:flex;
   flex-direction: column;
-  margin:20px 0;
+  margin:20px 0 0;
   flex-shrink: 0;
   position: relative;
 
@@ -83,6 +83,7 @@ $block-size: 250px;
 
   &--underlined{
     border-bottom:1px solid $white;
+    padding-bottom: 20px;
   }
 
   .block{
@@ -109,6 +110,20 @@ $block-size: 250px;
       margin:0 auto;
     }
   }
+
+  &.row--with-graf{
+    margin-bottom: 0px;
+  }
+  
+  &.row--with-text{
+    margin-top: 0px;
+  }
+
+  &.row_pb-40{
+    padding-bottom: 40px;
+  }
+
+
 
 }
 
