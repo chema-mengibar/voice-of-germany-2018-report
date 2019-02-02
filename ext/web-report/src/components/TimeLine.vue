@@ -18,6 +18,8 @@ export default {
       box:null,
       svg:null,
       divWidth:null,
+      isVisible:false,
+      isAnimationReady: false
     }
   },
   props:[
@@ -33,7 +35,7 @@ export default {
     },
   },  
   created(){
-   // nothing to do here
+    window.addEventListener('scroll', this.handleScroll);
   },
   mounted(){
     let _this = this;
@@ -44,6 +46,30 @@ export default {
   
   },
   methods:{
+    handleScroll (event) {
+      let _this = this;
+      if( _this.box ){
+
+        let windowPosY = window.pageYOffset;
+        let windowHeight = window.innerHeight;
+        let itemTop = this.box.node().getBoundingClientRect().top;
+
+        if( itemTop < windowHeight-250 && itemTop >50 ){
+          
+          if( !_this.isAnimationReady ){
+            _this.svg.selectAll('*').remove();
+            _this.drawWidget( this.pData );
+          }
+          _this.isVisible = true;
+          _this.isAnimationReady = true;
+        }
+
+        if( itemTop > windowHeight || itemTop < 0 ){
+          _this.isVisible = false;
+          _this.isAnimationReady = false;
+        }
+      }
+    },
     async getData( fileName ) {
 
       var _this = this;
@@ -53,7 +79,7 @@ export default {
         file: fileName,
       }
 
-      let req = await fetch("http://motuo.info/web-report-server/reporter.php",
+      let req = await fetch("http://motuo.info/tvog18/reporter.php",
       {
         method: 'POST',
         headers: {
@@ -79,6 +105,7 @@ export default {
       let _this = this;
       //Build svg in target div
       let box = d3.select( '#widget_' + _this.pId );
+       _this.box = box;
       let boxWidth = box.node().getBoundingClientRect().width;
       let boxHeight = box.node().getBoundingClientRect().height;
       
@@ -139,12 +166,14 @@ export default {
       function appendParticipantLine( _participantLikes, _params ){
         let line = d3.line()
           .x(function(d) { return d['x']; })
-          .y(function(d) { return d['y']; });
+          .y(function(d) { return d['y']; })
+
         let path = svg.append('path')
           .attr('d', line( _participantLikes ))
           .attr( 'stroke', ( ) => {
             return _params.color
-          });
+          })
+          ;
       }
 
 
@@ -179,6 +208,19 @@ export default {
       let data04 = getParticipantData( 'Samuel R\u00f6sch' );
       appendParticipantLine( data04, legendData[2] );
 
+      var t = d3.transition()
+        .duration(1200)
+        .ease(d3.easeLinear);
+
+       svg.append('rect')
+        .attr('x', (d,i)=> 0 + 'px' )
+        .attr('y', (d,i)=>  '0'  ) // label height = 100
+        .attr('width', '100%'  )
+        .attr('height', '100%'  )
+        .attr('fill', '#000000' )
+        .transition(t)
+        .attr('x', (d,i)=> '100%' )
+
 
       var x_axis = d3.axisBottom().scale(scaleXFct).tickFormat((d, i) =>  mainDates[d].substring(5) )
       var y_axis = d3.axisLeft().scale(scaleYFct).tickFormat((d, i) =>  d )
@@ -190,6 +232,12 @@ export default {
       svg.append("g").attr("class", "timeline__axis timeline__axis__y")
         .attr("transform", "translate("+ ( sc.width - margins[1] ) + ",0)")
         .call( y_axis )  
+
+      svg.append('text')
+        .attr('class', (d,i)=> 'bars-title-audience' )  
+        .attr('x', (d,i)=> margins[3] + 'px' )
+        .attr('y', (d,i)=>  margins[0] + 25 + 'px'  ) 
+        .text( 'Official Website likes' )  
 
 
     }
@@ -214,6 +262,11 @@ $widget--background-color: transparent; // #0f0f0f;
   path {
     fill: none;
     stroke-width: 3px;
+  }
+
+  .bars-title-audience{
+    fill:$white;
+    font-size:16px;
   }
 
   .timeline__axis{

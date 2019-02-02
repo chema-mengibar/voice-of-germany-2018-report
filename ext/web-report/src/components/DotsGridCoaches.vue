@@ -1,5 +1,6 @@
 <template>
   <div  v-bind:id="'widget_' + pId" class="widget widget_dots-grid" ref="widget">
+    <div class="widget_dots-grid_advice">Click on the dots to display the participant data</div>
     <div v-bind:id="'info_' + pId" class="widget_dots-grid_info">{{info}}</div>
     <div class="filter"> 
       <p> {{numDataItems}} participants </p>
@@ -8,11 +9,9 @@
       <div v-bind:id="'filter_' + index" v-for="(item, index) in coaches" class="filter-option" v-bind:class="myBtnClass(item)" v-on:click="redraw(item)">{{item}}</div>
    </div>
     <div class="filter"> 
-      <p>X axis:</p>
+      <p>SORT BY:</p>
       <div v-bind:id="'sort_' + index" v-for="(item, index) in keys" class="sort-option" v-bind:class="myBtnClass2(item)" v-on:click="reorder(item)">{{item}}</div>
-       <p class="separation">|</p>
-      <p>Y axis:</p> 
-      <p>Age</p>
+     
     </div>
   </div>
 </template>
@@ -32,7 +31,8 @@ export default {
       box:null,
       svg:null,
       divWidth:null,
-      info: 'Click on the dots to display the participant data',
+      info: '',
+      defaultInfo: '',
       selectedSortedKey:'All',
       coaches:[
         "All",
@@ -43,6 +43,8 @@ export default {
       ],
       keys:[ 'age', 'gender', 'buzzer_count' ],
       selectedKeys:[],
+      isVisible:false,
+      isAnimationReady: false
     }
   },
   props:[
@@ -57,7 +59,9 @@ export default {
       this.drawWidget( dataValue ) 
     },
   },  
-  created(){  },
+  created(){ 
+    window.addEventListener('scroll', this.handleScroll);
+   },
   mounted(){
     let _this = this;
     setTimeout(function(){ 
@@ -67,6 +71,31 @@ export default {
   
   },
   methods:{
+     handleScroll (event) {
+      let _this = this;
+      if( _this.box ){
+
+        let windowPosY = window.pageYOffset;
+        let windowHeight = window.innerHeight;
+        let itemTop = this.box.node().getBoundingClientRect().top;
+
+        if( itemTop < windowHeight-250 && itemTop >50 ){
+          
+          if( !_this.isAnimationReady ){
+            
+            _this.reorder(  );
+          }
+          _this.isVisible = true;
+          _this.isAnimationReady = true;
+        }
+
+        if( itemTop > windowHeight || itemTop < 0 ){
+          _this.isVisible = false;
+          _this.isAnimationReady = false;
+        }
+      }
+    },
+
     getWidgetcontainerWidth() {
       // return  this.$refs.widget.clientWidth;
       return this.$refs.widget.parentElement.clientWidth
@@ -75,6 +104,7 @@ export default {
       let _this = this;
       //Build svg in target div
       let box = d3.select( '#widget_' + _this.pId );
+      _this.box = box;
       let boxWidth = box.node().getBoundingClientRect().width;
       let boxHeight = box.node().getBoundingClientRect().height;
       
@@ -85,6 +115,7 @@ export default {
         .attr("width", w )
         .attr("height", h)
         .attr("id","svg_" + _this.pId);
+      this.info = this.defaultInfo;
       //Get data, onchange the data will be rendered the widget
       dataTools.getData( _this.aSource )
         .then( (responseData )=> _this.pData = responseData );  
@@ -98,7 +129,7 @@ export default {
     },
     redraw:function( _psortKey ){
       let svg = this.svg;
-      this.info = '';
+      this.info = this.defaultInfo;
       this.selectedSortedKey = _psortKey;
       svg.selectAll("*").remove();
       this.drawWidget( this.pData, _psortKey )
@@ -109,7 +140,9 @@ export default {
         this.selectedKeys.splice(itemIndex, 1);
       }
       else{
-        this.selectedKeys.push( _key );
+        if( _key != ''){
+          this.selectedKeys.push( _key );
+        }
       }
      
       this.redraw(this.selectedSortedKey  )
@@ -129,7 +162,7 @@ export default {
       //  { "gender": "female", "age": 48}, 
       // ]
 
-      let margins = [ 2, 15, conf.legendsHeight, 2 ];
+      let margins = [ 2, 45, conf.legendsHeight, 2 ];
       let svg = this.svg
       let sc = {};
       sc.height = svg.attr( "height" );
@@ -191,7 +224,7 @@ export default {
         .attr('class', (d,i)=> 'label-age' )  
         .attr('x', (d,i)=> margins[3] + sc.canvasWidth + 2 +'px' )
         .attr('y', (d,i)=> rowPosition( i ) + 5 + 'px' )
-        .text( (d,i)=> rangeAgesList[i] - 1 ) //corrector -1 label for threesold range
+        .text( (d,i)=> rangeAgesList[i] - 1 + ' years' ) //corrector -1 label for threesold range
 
 
       var rangeRowList = Array.apply( null, Array( conf.ageRanges + 1 ) ).map( ( x, i )=>  i ) //  [ 0, 1, 2, 3, 4, 5, 6 ]
@@ -210,6 +243,10 @@ export default {
           return scaleYinRowFct( _age )
         }
       }
+      
+      var t = d3.transition()
+            .duration(750)
+            .ease(d3.easeLinear);
 
       var circles = svg.append("g").attr('class','dots-layer')
         .selectAll("circle")
@@ -222,8 +259,8 @@ export default {
           var rowId = scaleYFct( d.age );
           return rowPosition( rowId ) + positionInRowByAge( d.age )  + 'px'; //  
         } )
-        .attr("r", (d,i)=> 4 )
-        .attr("fill", (d,i)=> customPalette[ d.gender ] )
+        .attr("r", (d,i)=> d.buzzer_count * 2 )
+        .attr("fill", (d,i)=> 'transparent' ) //dataTools.customColorByName('black')
         .on("click", (d, i)=>{
           var msg = `name: ${d.name} \n age: ${d.age}  \n buzzers: ${d.buzzer_count} `;
           circles
@@ -234,13 +271,34 @@ export default {
             .classed("selected", true)
             //.style("r",5);
           _this.info = msg;
-        });
+        })
+        .transition(t)
+        .attr("fill", (d,i)=> customPalette[ d.gender ] )
+
+
       
       let legendData = [
         {key:"female", color: customPalette.female },
         {key:"male", color: customPalette.male },
       ];
       legendTools.horizontal( legendData, sc, svg, margins );
+
+      _this.svg.select('.legend').append('text')
+        .style("font-size","10px")
+        .attr("y", (d, i)=>( sc.canvasHeight + 20  + 'px') )
+        .attr("x", (d,i )=> 120 + 'px' )
+        .text(function(d) { return 'Buzzer Count'; })
+
+      _this.svg.select('.legend')
+        .selectAll(".buzzer-count").data( [1,2,3,4] ).enter().append('circle')
+        .style("font-size","10px")
+        .attr("cy", (d, i)=>( sc.canvasHeight + 18  + 'px') )
+        .attr("cx", (d,i )=> 185 +  (d*(d*2)+d*3) + 'px' )
+        .attr("r", (d)=> d*2 + 'px')
+        .attr("class","buzzer-count")
+        .style("stroke", '#ffffff' )  
+        .style("stroke-width", '1px' ) 
+        .style("fill", 'transparent' ) 
   
     }
   }
@@ -314,6 +372,9 @@ $widget--background-color: transparent; //#1f1f1f;
     cursor: pointer;
 
     &.selected-filter{
+
+      background: $electrico;
+
       &.sf-0{
         background: $lila;
       }
@@ -334,8 +395,20 @@ $widget--background-color: transparent; //#1f1f1f;
   }
   .widget_dots-grid_info{
     min-height:50px;
+    max-width:280px;
+    padding-left:10px;
     margin:0 0 5px 2px;
-    color:$white;
+    background-color:$white;
+    color:$black;
+    white-space: pre-line;
+    line-height:14px;
+  }
+
+  .widget_dots-grid_advice{
+    order: 1; 
+    min-height:18px;
+    margin:0 0 5px 2px;
+    color:$electrico;
     white-space: pre-line;
     line-height:14px;
   }

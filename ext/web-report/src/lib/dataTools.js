@@ -32,7 +32,7 @@ export default  {
       cmd:'data',
       file: fileName,
     }
-    let req = await fetch("http://motuo.info/web-report-server/reporter.php",
+    let req = await fetch("http://motuo.info/tvog18/reporter.php",
     {
       method: 'POST',
       headers: {

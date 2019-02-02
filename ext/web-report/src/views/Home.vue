@@ -1,19 +1,14 @@
 <template>
-<div class="container" v-if="inited" >
+<div class="container" v-if="inited">
 
   <div class="row row--underlined" >
     <div class="block">
       <h1>TVOG18 <br/> FINALE REPORT</h1>
-       <!-- <font-awesome-icon icon="coffee" />
-       <font-awesome-icon icon="github" />
-
-       <i class="fa fa-github" aria-hidden="true"></i> -->
-
     </div>
     <div class="deco-header" style="display:none"></div>
   </div>
 
-  <div class="row row__text--centered row--underlined row_pb-40">
+  <div class="row row__text--centered row--underlined row_pb-40"  >
     <div class="block">
       <h3>{{text.text_intro_title}}</h3>
       <p>{{text.text_intro_body}}</p>
@@ -166,11 +161,9 @@
     <div class="block">
       <h2>{{text.bye_title}}</h2>
       <p>{{text.bye_body}}</p>
-    </div>
-    <div class="block">
-      <p> <a v-bind:href="text.github" target="_blank"> Github </a> </p>
-      <p> <a v-bind:href="text.twitter" target="_blank"> Twitter </a> </p>
 
+      <p class="feature"> <a v-bind:href="text.github" target="_blank"> <i class="fab fa-github"></i> Github   </a> </p>
+      <p class="feature"> <a v-bind:href="text.twitter" target="_blank">   <i class="fab fa-twitter"></i> Twitter</a> </p>
      
     </div>
   </div>
@@ -196,14 +189,7 @@ import FinalBars  from '@/components/FinalBars.vue';
 
 import dataTools from '@/lib/dataTools.js';
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee  } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-//import { faGithub } from '@fortawesome/fontawesome-free'
-
-library.add( faCoffee )
-
-
+import { fab } from '@fortawesome/fontawesome-free/js/all'
 
 export default {
   name: 'home',
@@ -217,35 +203,72 @@ export default {
     TableBuzzers,
     TableCoach,
     CandidateLanguagesBars,
-    FinalBars,
-    FontAwesomeIcon
+    FinalBars, 
   },
   watch: {
     text( dataValue ) {
-      this.inited = true;
+      this.$store.commit('setHomeInited', true )
     },
   },
   data(){
     return{
-      text:null,
-      inited:false,
+      text:{}
     }
   },
   mounted(){
-    this.getText();
-  },  
+    if( !this.inited ){
+      this.getText();
+    }
+    else{
+      this.text = this.$store.state.text;
+    }
+  }, 
+  computed: {
+    inited () {
+      return this.$store.state.isHomeInited; 
+    }
+  },
   methods:{
     getText:function(){
       let _this = this;
       dataTools.getData( 'text.json' )
-        .then( ( responseData )=> _this.text = responseData );  
+        .then( ( responseData )=>{
+           this.$store.commit('setText', responseData ) 
+          return  _this.text = responseData
+         } );  
     }
 
   }
 }
 </script>
 
-<style lang="sass">
+<style lang="scss">
 @import '~@/assets/scss/main';
+
+
+
+.feature{
+  margin-top:20px;
+  display:block;
+  
+  a {
+    color: $white;
+    font-size:18px;
+    text-decoration: none;
+    //margin-left:20px;
+
+    &:visited {
+      color: $white;
+    }
+    &:hover {
+      color: $white;   
+    }
+    &:active {
+      color: $white;
+    }
+  }
+
+}
+
 
 </style>

@@ -8,8 +8,14 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      alias: '/home',
+      name: '',
       component: () => import( /* webpackChunkName: "home" */ './views/Home.vue' )
+    },
+    {
+      path: '/about_project',
+      name: 'about_project',
+      component: () => import( /* webpackChunkName: "about_project" */ './views/AboutProject.vue' )
     }
   ]
 })

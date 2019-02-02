@@ -11,7 +11,7 @@ $response = array(
 
 $fileName =  $_POST["showdate"].'__'.date('U');
 
-$fp = fopen('data/show_'.$fileName.'.json', 'w');
+$fp = fopen('data/performance_'.$fileName.'.json', 'w');
 $fwrite = fwrite($fp, json_encode($response));
 if ($fwrite === false) {
     header('HTTP/1.1 404 Not Found');

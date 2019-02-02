@@ -15,6 +15,8 @@ export default {
       box:null,
       svg:null,
       divWidth:null,
+      isVisible:false,
+      isAnimationReady: false
     }
   },
   props:[
@@ -28,7 +30,9 @@ export default {
       this.drawWidget( dataValue ) 
     },
   },  
-  created(){  },
+  created(){ 
+    window.addEventListener('scroll', this.handleScroll);
+   },
   mounted(){
     let _this = this;
     setTimeout(function(){ 
@@ -38,6 +42,29 @@ export default {
   
   },
   methods:{
+     handleScroll (event) {
+      let _this = this;
+      if( this.box ){
+        let windowPosY = window.pageYOffset;
+        let windowHeight = window.innerHeight;
+        let itemTop = this.box.node().getBoundingClientRect().top;
+
+        if( itemTop < windowHeight-250 && itemTop >50 ){
+
+          if( !_this.isAnimationReady ){
+            _this.svg.selectAll("*").remove();
+            _this.drawWidget( _this.pData );
+          }
+          _this.isVisible = true;
+          _this.isAnimationReady = true;
+        }
+
+        if( itemTop > windowHeight || itemTop < 0 ){
+          _this.isVisible = false;
+          _this.isAnimationReady = false;
+        }
+      }
+    },
     getWidgetcontainerWidth() {
       return this.$refs.widget.parentElement.clientWidth
     },
@@ -45,13 +72,14 @@ export default {
       let _this = this;
       //Build svg in target div
       let box = d3.select( '#widget_' + _this.pId );
+      _this.box = box;
       let boxWidth = box.node().getBoundingClientRect().width;
       let boxHeight = box.node().getBoundingClientRect().height;
       
       let w = boxWidth;
       let h = 350;
 
-      this.svg = box.append("svg")
+      _this.svg = box.append("svg")
         .attr("width", w )
         .attr("height", h)
         .attr("id","svg_" + _this.pId);
@@ -60,6 +88,8 @@ export default {
         .then( (responseData )=> _this.pData = responseData );  
     } ,
     drawWidget:function( pData ){
+
+      let _this = this;
       let margins = [0, 0, 0, 10];
       let svg = this.svg
       let sc = {};
@@ -69,7 +99,7 @@ export default {
       sc.canvasWidth = svg.attr( "width" ) - margins[1] - margins[3];
       /* lang_key, lang_quote, num_songs, total_songs */
 
-      var donutWidth = 15; 
+      var donutWidth = 20; 
       var radius = Math.min( sc.width, 250) / 2;
       var rotation = 0;
 
@@ -83,6 +113,7 @@ export default {
       }
 
 
+      var arco = d3.arc().innerRadius(radius-7).outerRadius(radius);
       var arc = d3.arc().innerRadius(radius - donutWidth).outerRadius(radius);
       var pie = d3.pie().value(function(d) { return d.num_songs; }).sort(null);
       
@@ -90,17 +121,28 @@ export default {
 
       var g = svgContainer.selectAll("g").data( pie(pData) ).enter().append("g"); 
 
+      var t = d3.transition()
+        .duration(750)
+        .ease(d3.easeLinear);
+
       var paths = g.append('path')
       .attr('d', arc)
       .attr('fill', function(d, i) {
+        return dataTools.customColorByName('black');
+      })
+      .transition(t)
+      .attr('d', arco)
+      .attr('fill', function(d, i) {
         return customPalette[ pData[i].lang_key ];
       }); 
+
+
 
       function isOdd(num) { return num % 2;}
 
       var labels = g.append("text")
         .attr("transform", function(d, i) {
-          var _d = arc.centroid(d);
+          var _d = arco.centroid(d);
           if( isOdd(i) ){  
             _d[0] *= 1.2;	_d[1] *= 1.2; 
           }

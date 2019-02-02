@@ -15,6 +15,8 @@ export default {
       box:null,
       svg:null,
       divWidth:null,
+      isVisible:false,
+      isAnimationReady: false
     }
   },
   props:[
@@ -29,7 +31,9 @@ export default {
       this.drawWidget( dataValue ) 
     },
   },  
-  created(){  },
+  created(){ 
+    window.addEventListener('scroll', this.handleScroll);
+   },
   mounted(){
     let _this = this;
     setTimeout(function(){ 
@@ -39,6 +43,30 @@ export default {
   
   },
   methods:{
+     handleScroll (event) {
+      let _this = this;
+      if( _this.box ){
+        let windowPosY = window.pageYOffset;
+        let windowHeight = window.innerHeight;
+        let itemTop = this.box.node().getBoundingClientRect().top;
+
+        if( itemTop < windowHeight-250 && itemTop >50 ){
+          
+          if( !_this.isAnimationReady ){
+            _this.svg.selectAll("*").remove();
+            _this.drawWidget( _this.pData );
+          }
+          _this.isVisible = true;
+          _this.isAnimationReady = true;
+        }
+
+        if( itemTop > windowHeight || itemTop < 0 ){
+          _this.isVisible = false;
+          _this.isAnimationReady = false;
+        }
+      }
+    },
+
     getWidgetcontainerWidth() {
       return this.$refs.widget.parentElement.clientWidth
     },
@@ -46,13 +74,14 @@ export default {
       let _this = this;
       //Build svg in target div
       let box = d3.select( '#widget_' + _this.pId );
+      _this.box = box;
       let boxWidth = box.node().getBoundingClientRect().width;
       let boxHeight = box.node().getBoundingClientRect().height;
       
       let w = boxWidth;
       let h = 350;
 
-      this.svg = box.append("svg")
+      _this.svg = box.append("svg")
         .attr("width", w )
         .attr("height", h)
         .attr("id","svg_" + _this.pId);
@@ -102,13 +131,17 @@ export default {
 
     var quoteLabelWidth = 50;
 
+    var t = d3.transition()
+      .duration(750)
+      .ease(d3.easeLinear);
+
     // scaleLog Issue zeros: https://stackoverflow.com/questions/40438911/logarithmic-scale-returns-nan
     let scaleXFct =  d3.scaleLinear().domain( [ minQuote , maxQuote] ).range( [0, sc.canvasWidth - margins[1] - quoteLabelWidth ] );
 
     row.append('rect')
       .attr('class', (d,i)=> 'bar-song--' + d[ globs.lang ] )  
       .attr('d-singer', (d,i)=> d[ globs.artist ] )  
-      .attr('width', (d,i)=> scaleXFct( d[ globs.deezer_quote ] ) + 'px' )
+      .attr('width', (d,i)=> 0 )
       .attr('height', (d,i)=> barHeight + 'px' )
       .attr('x', (d,i)=> margins[3] + 'px' )
       .attr('y', (d,i)=> margins[0] + ( ( barHeight + labelHeight ) * i  ) + labelHeight + 'px' )
@@ -116,10 +149,12 @@ export default {
         var songLang = d[ globs.lang ];
         return customPalette[ songLang ];
       } )  
+      .transition(t)
+      .attr('width', (d,i)=> scaleXFct( d[ globs.deezer_quote ] ) + 'px' )
 
     row.append('text')
       .attr('class', 'label-row' )  
-      .attr('x', (d,i)=> margins[3] + scaleXFct( d[ globs.deezer_quote ] ) + 5 + 'px' )
+      .attr('x', (d,i)=> margins[3]  + 'px' )
       .attr('y', (d,i)=> margins[0] + ( ( barHeight + labelHeight ) * i  ) + ((barHeight/1.5) + labelHeight ) + 'px' )
       .style("text-anchor", "start")
      .text( (d, i) => d[ globs.deezer_quote ] ) 
@@ -127,6 +162,8 @@ export default {
         var songLang = d[ globs.lang ];
         return customPalette[ songLang ];
       } )  
+      .transition(t)
+      .attr('x', (d,i)=> margins[3] + scaleXFct( d[ globs.deezer_quote ] ) + 5 + 'px' )
 
     row.append('text')
       .attr('class', 'label-row label-row--artist' )  

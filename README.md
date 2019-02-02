@@ -81,20 +81,32 @@ Download the chromedriver.exe into the folder
 ##### Usage
 ##### Notes
 
-##### Issues
 
-Languages detect
+## Issues
+
+>**Languages detect**  
 https://stackoverflow.com/questions/39142778/python-how-to-determine-the-language
 https://es.wikipedia.org/wiki/ISO_639-1
 
 
-Name detect
+>**Name detect**  
 https://thetokenizer.com/2013/08/25/how-to-easily-recognize-peoples-names-in-a-text/
 
 
-JS Loops
+>**JS Loops**  
 https://stackoverflow.com/questions/14379274/how-to-iterate-over-a-javascript-object
 https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for...of
+
+>**Fontawesome in Vue**  
+
+```
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faCoffee  } from '@fortawesome/free-solid-svg-icons'
+// import { fasGithub } from '@fortawesome/fontawesome-free'
+// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+```
+
+
 --------------
 
 selenium

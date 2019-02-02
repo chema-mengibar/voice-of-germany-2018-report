@@ -1,116 +1,116 @@
 var teams =  {
-  "Michael Patrick": [
+ "Michael Patrick": [
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/amanda-lena-jakucs", 
-      "likes": 6043, 
+      "likes": 6148, 
       "name": "Amanda Lena Jakucs", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/bernarda-brunovic", 
-      "likes": 5281, 
+      "likes": 6322, 
       "name": "Bernarda Brunovic", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/chantal-dorn", 
-      "likes": 7473, 
+      "likes": 15673, 
       "name": "Chantal Dorn", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/fabian-riaz", 
-      "likes": 5718, 
+      "likes": 6636, 
       "name": "Fabian Riaz", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/gaby-schwager", 
-      "likes": 5952, 
+      "likes": 6095, 
       "name": "Gaby Schwager", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/guido-goh", 
-      "likes": 9650, 
+      "likes": 10049, 
       "name": "Guido Goh", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/jelila-bouraoui", 
-      "likes": 2530, 
+      "likes": 2708, 
       "name": "J\u00e9lila Bouraoui", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/lena-rotermund", 
-      "likes": 932, 
+      "likes": 1005, 
       "name": "Lena Rotermund", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/liam-blaney", 
-      "likes": 25241, 
+      "likes": 40372, 
       "name": "Liam Blaney", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/ludmila-larusso", 
-      "likes": 1104, 
+      "likes": 1231, 
       "name": "Ludmila Larusso", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/maria-pasqua-casti", 
-      "likes": 620, 
+      "likes": 1062, 
       "name": "Maria Pasqua Casti", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/mario-geckeler", 
-      "likes": 258, 
+      "likes": 472, 
       "name": "Mario Geckeler", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/matthias-nebel", 
-      "likes": 32224, 
+      "likes": 39444, 
       "name": "Matthias Nebel", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/monica-lewis-schmidt", 
-      "likes": 1696, 
+      "likes": 1956, 
       "name": "Monica Lewis-Schmidt", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/philipp-von-unold", 
-      "likes": 2415, 
+      "likes": 2565, 
       "name": "Philipp von Unold", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/samuel-roesch", 
-      "likes": 9329, 
+      "likes": 10060, 
       "name": "Samuel R\u00f6sch", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/samuele-di-dio", 
-      "likes": 350, 
+      "likes": 381, 
       "name": "Samuele Di Dio", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/suemeyra-stahl", 
-      "likes": 3897, 
+      "likes": 4249, 
       "name": "S\u00fcmeyra Stahl", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/taylor-shore", 
-      "likes": 694, 
+      "likes": 753, 
       "name": "Taylor Shore", 
       "in": false
     }
@@ -118,349 +118,349 @@ var teams =  {
   "Mark": [
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/alessandro-ruetten", 
-      "likes": 4673, 
+      "likes": 5226, 
       "name": "Alessandro R\u00fctten", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/alexandre-heitz", 
-      "likes": 2747, 
+      "likes": 3014, 
       "name": "Alexandre Heitz", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/damiano-maiolini", 
-      "likes": 1459, 
+      "likes": 1829, 
       "name": "Damiano Maiolini", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/debora-vater", 
-      "likes": 12052, 
+      "likes": 12605, 
       "name": "Debora Vater", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/diana-babalola", 
-      "likes": 1312, 
+      "likes": 1729, 
       "name": "Diana Babalola", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/dominik-hartz", 
-      "likes": 388, 
+      "likes": 702, 
       "name": "Dominik Hartz", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/felicitas-mayer", 
-      "likes": 509, 
+      "likes": 2181, 
       "name": "Felicitas Mayer", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/jessica-schaffler", 
-      "likes": 1789, 
+      "likes": 7809, 
       "name": "Jessica Schaffler", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/johannes-holfeld", 
-      "likes": 1771, 
+      "likes": 1870, 
       "name": "Johannes Holfeld", 
       "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/john-alexander-garner-iii", 
-      "likes": 9503, 
+      "likes": 12350, 
       "name": "John Alexander Garner III", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/judith-jandl", 
-      "likes": 2024, 
+      "likes": 2116, 
       "name": "Judith Jandl", 
       "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/kira-mesterheide", 
-      "likes": 2328, 
+      "likes": 2699, 
       "name": "Kira Mesterheide", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/lars-kamphausen", 
-      "likes": 637, 
+      "likes": 727, 
       "name": "Lars Kamphausen", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/laura-neels", 
-      "likes": 6050, 
+      "likes": 7575, 
       "name": "Laura Neels", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/mark-agpas", 
-      "likes": 7346, 
+      "likes": 7391, 
       "name": "Mark Agpas", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/melissa-muamba", 
-      "likes": 3835, 
+      "likes": 4065, 
       "name": "Melissa Muamba", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/misses-melaza", 
-      "likes": 128269, 
+      "likes": 129055, 
       "name": "Misses Melaza", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/penni-jo-blatterman", 
-      "likes": 5680, 
+      "likes": 5876, 
       "name": "Penni Jo Blatterman", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/rahel-maas", 
-      "likes": 1752, 
+      "likes": 2491, 
       "name": "Rahel Maas", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/sinem-uraz", 
-      "likes": 1775, 
+      "likes": 1995, 
       "name": "Sinem Uraz", 
-      "in": true
+      "in": false
     }
   ], 
   "Michi & Smudo": [
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/alexander-eder", 
-      "likes": 15698, 
+      "likes": 23209, 
       "name": "Alexander Eder", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/cem-kuecuek", 
-      "likes": 295, 
+      "likes": 418, 
       "name": "Cem K\u00fcc\u00fck", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/clifford-dwenger", 
-      "likes": 2633, 
+      "likes": 3331, 
       "name": "Clifford Dwenger", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/coby-grant", 
-      "likes": 12321, 
+      "likes": 14451, 
       "name": "Coby Grant", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/eros-atomus-isler", 
-      "likes": 6449, 
+      "likes": 8286, 
       "name": "Eros Atomus Isler", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/eun-chae-rhee", 
-      "likes": 22409, 
+      "likes": 27347, 
       "name": "Eun Chae Rhee", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/fabrice-richter-reichhelm", 
-      "likes": 1908, 
+      "likes": 2054, 
       "name": "Fabrice Richter-Reichhelm", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/felicia-peters", 
-      "likes": 5888, 
+      "likes": 5997, 
       "name": "Felicia Peters", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/igor-quennehen", 
-      "likes": 18502, 
+      "likes": 18614, 
       "name": "Igor Quennehen", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/jeanie-celina-schultheiss", 
-      "likes": 5348, 
+      "likes": 5838, 
       "name": "Jeanie Celina Schulthei\u00df", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/karina-klueber", 
-      "likes": 11261, 
+      "likes": 12280, 
       "name": "Karina Kl\u00fcber", 
       "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/kathrin-kaye-ree-eftekhari", 
-      "likes": 37098, 
+      "likes": 58241, 
       "name": "Kathrin 'Kaye-Ree' Eftekhari", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/kinga-noemi-balla", 
-      "likes": 5758, 
+      "likes": 5839, 
       "name": "Kinga No\u00e9mi Balla", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/lia-joham", 
-      "likes": 32831, 
+      "likes": 33480, 
       "name": "Lia Joham", 
       "in": true
     }, 
     {
-      "link": "https://www.the-voice-of-germany.de/talente/staffel-8/malin-lewis", 
-      "likes": 430, 
-      "name": "Malin Lewis", 
-      "in": true
+      "link": "https://www.the-voice-of-germany.de/talente/staffel-8/mascha-winkels", 
+      "likes": 56907, 
+      "name": "Mascha Winkels", 
+      "in": false
     }, 
     {
-      "link": "https://www.the-voice-of-germany.de/talente/staffel-8/mascha-winkels", 
-      "likes": 37108, 
-      "name": "Mascha Winkels", 
+      "link": "https://www.the-voice-of-germany.de/talente/staffel-8/sascha-coles", 
+      "likes": 4805, 
+      "name": "Sascha Coles", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/sebastian-stipp", 
-      "likes": 13542, 
+      "likes": 20601, 
       "name": "Sebastian Stipp", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/seda-acar", 
-      "likes": 1475, 
+      "likes": 1594, 
       "name": "Seda Acar", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/steffen-frommberger", 
-      "likes": 38641, 
+      "likes": 46357, 
       "name": "Steffen Frommberger", 
-      "in": true
+      "in": false
     }
   ], 
   "Yvonne": [
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/abdullah-azad", 
-      "likes": 1519, 
+      "likes": 1791, 
       "name": "Abdullah Azad", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/andreas-hauser", 
-      "likes": 42194, 
+      "likes": 83085, 
       "name": "Andreas Hauser", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/benjamin-dolic", 
-      "likes": 44315, 
+      "likes": 82840, 
       "name": "Benjamin Dolic", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/doriane-kamdem-mabou", 
-      "likes": 892, 
+      "likes": 1096, 
       "name": "Doriane Kamdem Mabou", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/flavio-baltermia", 
-      "likes": 1114, 
+      "likes": 1430, 
       "name": "Flavio Baltermia", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/florian-alexander-kurz", 
-      "likes": 5865, 
+      "likes": 6115, 
       "name": "Florian Alexander Kurz", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/giuliano-de-stefano", 
-      "likes": 3052, 
+      "likes": 3341, 
       "name": "Giuliano De Stefano", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/hugo-gonzalez-morales", 
-      "likes": 445, 
+      "likes": 821, 
       "name": "Hugo Gonzalez Morales", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/james-smith-jr", 
-      "likes": 1834, 
+      "likes": 2373, 
       "name": "James Smith Jr.", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/juliane-goetz", 
-      "likes": 541, 
+      "likes": 607, 
       "name": "Juliane G\u00f6tz", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/linda-alkhodor", 
-      "likes": 1210, 
+      "likes": 1875, 
       "name": "Linda Alkhodor", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/luka-nozza", 
-      "likes": 1049, 
+      "likes": 1186, 
       "name": "Luka Nozza", 
+      "in": false
+    }, 
+    {
+      "link": "https://www.the-voice-of-germany.de/talente/staffel-8/malin-lewis", 
+      "likes": 891, 
+      "name": "Malin Lewis", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/mattis-laustroer", 
-      "likes": 1439, 
+      "likes": 1748, 
       "name": "Mattis Laustroer", 
-      "in": true
+      "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/nora-brandenburger", 
-      "likes": 7383, 
+      "likes": 7656, 
       "name": "Nora Brandenburger", 
       "in": true
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/patrice-gerlach", 
-      "likes": 981, 
+      "likes": 1928, 
       "name": "Patrice Gerlach", 
       "in": true
     }, 
     {
-      "link": "https://www.the-voice-of-germany.de/talente/staffel-8/sascha-coles", 
-      "likes": 3750, 
-      "name": "Sascha Coles", 
-      "in": true
-    }, 
-    {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/shireen-nikolic", 
-      "likes": 15380, 
+      "likes": 15444, 
       "name": "Shireen Nikolic", 
       "in": false
     }, 
     {
       "link": "https://www.the-voice-of-germany.de/talente/staffel-8/stefan-celar", 
-      "likes": 1825, 
+      "likes": 2016, 
       "name": "Stefan Celar", 
-      "in": true
+      "in": false
     }
   ]
 }

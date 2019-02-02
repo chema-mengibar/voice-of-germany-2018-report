@@ -5,20 +5,17 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    selectedPanel: 12,
-    panelsData:[],
-    isMenuOpen:false 
+    isHomeInited:false,
+    text:{},
   },
   mutations: {
-    setMenuOpen( state ){
-      this.state.isMenuOpen = !state.isMenuOpen;      
+    setHomeInited( state, flag ){
+      this.state.isHomeInited = flag;      
     },
-    setPanelsData( panels ){
-      this.state.panelsData = panels;      
+    setText( state, text ){
+      this.state.text = text;      
     },
-    setSelectedPanel( iPanel ){
-      this.state.selectedPanel = iPanel;      
-    }
+   
   },
   actions: {
 

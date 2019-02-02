@@ -1,16 +1,13 @@
 <template>
   <div  v-bind:id="'widget_' + pId" class="widget widget_dots-grid" ref="widget">
-    <div v-bind:id="'info_' + pId" class="widget_dots-grid_info">{{info}}</div>
+    <div v-bind:id="'info_' + pId" class="widget-dots-simple-grid_info">{{info}}</div>
     <div class="filter"> 
-      <p>X axis:  </p>
-      <div id="sort_0" class="filter-option" v-bind:class="myBtnClass(null)" v-on:click="redraw(null)">Name</div>
-      <div id="sort_1" class="filter-option" v-bind:class="myBtnClass('age')" v-on:click="redraw('age')">Age</div>
-      <div id="sort_2" class="filter-option" v-bind:class="myBtnClass('gender')" v-on:click="redraw('gender')">Gender</div>
-      <div id="sort_3" class="filter-option" v-bind:class="myBtnClass('buzzer_count')" v-on:click="redraw('buzzer_count')">Buzzers</div>
-      <p class="separation">|</p>
-      <p>Y axis:</p> 
-      <p>Age</p>
-
+      <p>SORT BY:  </p>
+      <div id="sort_0" class="filter-option option-color-0" v-bind:class="myBtnClass(null)" v-on:click="redraw(null)">Name</div>
+      <div id="sort_1" class="filter-option option-color-1" v-bind:class="myBtnClass('age')" v-on:click="redraw('age')">Age</div>
+      <div id="sort_2" class="filter-option option-color-2" v-bind:class="myBtnClass('gender')" v-on:click="redraw('gender')">Gender</div>
+      <div id="sort_3" class="filter-option option-color-3" v-bind:class="myBtnClass('buzzer_count')" v-on:click="redraw('buzzer_count')">Buzzers</div>
+     
     </div>
   </div>
 </template>
@@ -29,8 +26,11 @@ export default {
       box:null,
       svg:null,
       divWidth:null,
-      info: 'Click on the dots to display the participant data',
-      selectedSortedKey:null
+      info: '',
+      defaultInfo: 'Click on the dots to display the participant data',
+      selectedSortedKey:null,
+      isVisible:false,
+      isAnimationReady: false
     }
   },
   props:[
@@ -45,7 +45,9 @@ export default {
       this.drawWidget( dataValue ) 
     },
   },  
-  created(){  },
+  created(){ 
+    window.addEventListener('scroll', this.handleScroll);
+   },
   mounted(){
     let _this = this;
     setTimeout(function(){ 
@@ -55,6 +57,31 @@ export default {
   
   },
   methods:{
+     handleScroll (event) {
+      let _this = this;
+      if( _this.box ){
+
+        let windowPosY = window.pageYOffset;
+        let windowHeight = window.innerHeight;
+        let itemTop = this.box.node().getBoundingClientRect().top;
+
+        if( itemTop < windowHeight-250 && itemTop >50 ){
+          
+          if( !_this.isAnimationReady ){
+            
+            _this.redraw( this.selectedSortedKey );
+          }
+          _this.isVisible = true;
+          _this.isAnimationReady = true;
+        }
+
+        if( itemTop > windowHeight || itemTop < 0 ){
+          _this.isVisible = false;
+          _this.isAnimationReady = false;
+        }
+      }
+    },
+
     getWidgetcontainerWidth() {
       // return  this.$refs.widget.clientWidth;
       return this.$refs.widget.parentElement.clientWidth
@@ -63,6 +90,7 @@ export default {
       let _this = this;
       //Build svg in target div
       let box = d3.select( '#widget_' + _this.pId );
+      _this.box = box;
       let boxWidth = box.node().getBoundingClientRect().width;
       let boxHeight = box.node().getBoundingClientRect().height;
       
@@ -74,6 +102,7 @@ export default {
         .attr("height", h)
         .attr("id","svg_" + _this.pId);
       //Get data, onchange the data will be rendered the widget
+      this.info = this.defaultInfo;
       dataTools.getData( _this.aSource )
         .then( (responseData )=> _this.pData = responseData );  
     } ,
@@ -82,7 +111,7 @@ export default {
     },
     redraw:function( _psortKey ){
       let svg = this.svg;
-      this.info = '';
+      this.info = this.defaultInfo;
       this.selectedSortedKey = _psortKey;
       svg.selectAll("*").remove();
       this.drawWidget( this.pData, _psortKey )
@@ -102,7 +131,7 @@ export default {
       //  { "gender": "female", "age": 48}, 
       // ]
 
-      let margins = [ 2, 15, conf.legendsHeight, 2 ];
+      let margins = [ 2, 40, conf.legendsHeight, 2 ];
       let svg = this.svg
       let sc = {};
       sc.height = svg.attr( "height" );
@@ -126,7 +155,7 @@ export default {
       }
 
       row.append('rect')
-        .attr('class', (d,i)=> 'bar-age' )  
+        .attr('class', (d,i)=> 'simple-bar-age' )  
         .attr('width', (d,i)=> sc.canvasWidth + 'px' )
         .attr('height', (d,i)=> barHeight + 'px' )
         .attr('x', (d,i)=> margins[3] + 'px' )
@@ -151,7 +180,7 @@ export default {
         .attr('class', (d,i)=> 'label-age' )  
         .attr('x', (d,i)=> margins[3] + sc.canvasWidth + 2 +'px' )
         .attr('y', (d,i)=> rowPosition( i ) + 5 + 'px' )
-        .text( (d,i)=> rangeAgesList[i] - 1 ) //corrector -1 label for threesold range
+        .text( (d,i)=> rangeAgesList[i] - 1 + ' years' ) //corrector -1 label for threesold range
 
 
       var rangeRowList = Array.apply( null, Array( conf.ageRanges + 1 ) ).map( ( x, i )=>  i ) //  [ 0, 1, 2, 3, 4, 5, 6 ]
@@ -171,6 +200,10 @@ export default {
         }
       }
 
+      var t = d3.transition()
+            .duration(750)
+            .ease(d3.easeLinear);
+
       var circles = svg.append("g").attr('class','dots-layer')
         .selectAll("circle")
         .data( pData ).enter()
@@ -178,12 +211,12 @@ export default {
 
       circles
         .attr("cx", (d,i)=> margins[3] + conf.paddingRow +  ( columnPx * i ) + 'px')
-        .attr("cy", (d,i)=> { 
-          var rowId = scaleYFct( d.age );
+        .attr("cy", (d,i)=>{
+           var rowId = scaleYFct( d.age );
           return rowPosition( rowId ) + positionInRowByAge( d.age )  + 'px'; //  
         } )
         .attr("r", (d,i)=> d.buzzer_count * 2 )
-        .attr("fill", (d,i)=> customPalette[ d.gender ] )
+        .attr("fill", (d,i)=> 'transparent' )
         .on("click", (d, i)=>{
           var msg = `name: ${d.name} \n age: ${d.age}  \n buzzers: ${d.buzzer_count} `;
           circles
@@ -194,13 +227,36 @@ export default {
             .classed("selected", true)
             //.style("r",5);
           _this.info = msg;
-        });
+        })
+        .transition(t)
+        .attr("fill", (d,i)=> customPalette[ d.gender ] )
+
+
       
       let legendData = [
         {key:"female", color: customPalette.female },
         {key:"male", color: customPalette.male },
       ];
       legendTools.horizontal( legendData, sc, svg, margins );
+     
+
+
+      _this.svg.select('.legend').append('text')
+        .style("font-size","10px")
+        .attr("y", (d, i)=>( sc.canvasHeight + 20  + 'px') )
+        .attr("x", (d,i )=> 120 + 'px' )
+        .text(function(d) { return 'Buzzer Count'; })
+
+      _this.svg.select('.legend')
+        .selectAll(".buzzer-count").data( [1,2,3,4] ).enter().append('circle')
+        .style("font-size","10px")
+        .attr("cy", (d, i)=>( sc.canvasHeight + 18  + 'px') )
+        .attr("cx", (d,i )=> 185 +  (d*(d*2)+d*3) + 'px' )
+        .attr("r", (d)=> d*2 + 'px')
+        .attr("class","buzzer-count")
+        .style("stroke", '#ffffff' )  
+        .style("stroke-width", '1px' ) 
+        .style("fill", 'transparent' ) 
   
     }
   }
@@ -230,8 +286,8 @@ $widget--background-color: transparent; //#1f1f1f;
     fill: $white;
   }
 
-  .bar-age{
-    fill: #0f0f0f;
+  .simple-bar-age{
+    fill: #080808;
   }
 
   .legend{
@@ -270,17 +326,23 @@ $widget--background-color: transparent; //#1f1f1f;
     cursor: pointer;
 
     &.selected-filter{
-      background: $electrico;
+      &.option-color-0{   background: $carmin;   }
+      &.option-color-1{   background: $lila;   }
+      &.option-color-2{   background: $naranja;   }
+      &.option-color-3{   background: $electrico;   }
     }
   }
 
   p{
     margin-left:10px;
   }
-  .widget_dots-grid_info{
+  .widget-dots-simple-grid_info{
     min-height:50px;
+    max-width:280px;
+    padding-left:10px;
     margin:0 0 5px 2px;
-    color:$white;
+    background-color:$white;
+    color:$black;
     white-space: pre-line;
     line-height:14px;
   }
