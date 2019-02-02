@@ -2,7 +2,8 @@
 <div id="app" class="wrapper">
 
   <ul class="app__main-nav">
-    <li class="app__nav-item" v-for="route in [{title:'/home',name:'Report'},{title:'/about_project', name:'Process'}]">
+    <!-- <li class="app__nav-item" v-for="route in [{title:'/home',name:'Report'},{title:'/about_project', name:'Process'}]"> -->
+    <li class="app__nav-item" v-for="route in [{title:'/home',name:'Report'}]">
       <router-link :to="route.title" class="nav-link" active-class="active">
           {{ route.name }}
       </router-link>

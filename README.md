@@ -83,6 +83,9 @@ link:  www.songtexte.com
 - **Google**  
 Automated extraction of additional information about the songs.  
 
+### Data dimensions
+![web-report-client](./readme.files/dimensions-table.jpg)
+
 ## DataSets
 The extracted and processed datasets are located in the 'data' directory of the repository:   
 ```
