@@ -4,7 +4,7 @@
 Each year, the 'The Voice' television contest is organized in different countries around the world.
 In it, participants compete with their voice and their performances to be chosen and win the final, becoming 'The Voice' of the country.
 
-## Link of the Project
+## Project link
 http://motuo.info/tvog18
 
 ## Motivation
